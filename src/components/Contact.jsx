@@ -1,5 +1,9 @@
 import React, { useRef } from "react";
 import ContactBanner from "../assets/Contact/ContactBanner.svg";
+import ContactImg1 from "../assets/Contact/ContactImg1 Cilkencave.jfif";
+import ContactImg2 from "../assets/Contact/ContactImg2 Cilkencave.svg";
+import ContactImg3 from "../assets/Contact/ContactImg3 Cilkencave.svg";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const contactFormRef = useRef(null);
@@ -102,6 +106,48 @@ function Contact() {
             </div>
             <p>hr@cilckncave.com</p>
           </a>
+        </div>
+      </div>
+      <div className="contactBusiness">
+        <div className="info">
+          <div className="heading">
+            <h2>Grow your Business with Our Expertise</h2>
+            <a onClick={scrollToForm}><p>Contact Us</p></a>
+          </div>
+          <p>
+            We understand the importance of approaching each work integrally and
+            believe in the power of simple.
+          </p>
+        </div>
+        <div className="linkCard">
+          <img className="linkCardBackground" src={ContactImg1}></img>
+        </div>
+      </div>
+      <div className="contactCardsContainer">
+        <div className="linkCard Blue">
+          <img className="linkCardBackground" src={ContactImg2}></img>
+          <div className="heading">
+            <h4>
+              <span>Reach Out,</span> <br /> Let’s Hear from You!
+            </h4>
+            <p>Let’s Start a Conversation</p>
+          </div>
+          <Link to="/" className="linkCardButton">
+            Contact Us
+          </Link>
+        </div>
+        <div className="linkCard Green">
+          <img className="linkCardBackground" src={ContactImg3}></img>
+          <div className="heading">
+            <h4>
+              <span>Apply Now</span> and
+              <br /> Grow with Us!
+            </h4>
+            <p>Check out exciting Job Opportunities with us.</p>
+          </div>
+          <Link to="/" className="linkCardButton">
+            Join Now
+          </Link>
         </div>
       </div>
     </div>
