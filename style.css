@@ -48,6 +48,7 @@
 .navbarLinks {
   width: 120px;
   text-decoration: none;
+  justify-content: center;
   cursor: pointer;
   position: relative;
   display: flex;
