@@ -46,6 +46,7 @@
 }
 
 .navbarLinks {
+  width: 120px;
   text-decoration: none;
   cursor: pointer;
   position: relative;
