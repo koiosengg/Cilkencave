@@ -56,19 +56,9 @@
   align-items: center;
   gap: 6px;
   border-radius: 4px;
-  background: linear-gradient(
-        to bottom right,
-        #204a0e 0%,
-        #41ad13 28%,
-        #214c0e 50%
-      )
-      bottom right / 50% 50% no-repeat,
-    linear-gradient(to bottom left, #204a0e 0%, #41ad13 28%, #214c0e 50%) bottom
-      left / 50% 50% no-repeat,
-    linear-gradient(to top left, #204a0e 0%, #41ad13 28%, #214c0e 50%) top left /
-      50% 50% no-repeat,
-    linear-gradient(to top right, #204a0e 0%, #41ad13 28%, #214c0e 50%) top
-      right / 50% 50% no-repeat;
+  background: linear-gradient(270deg, #204a0e 0%, #41ad13 89.1%, #214c0e 100%);
+  background-size: 400% 400%;
+  transition: background-position 0.3s ease-in-out;
   /* Text Style */
   color: var(--White, #fff);
   font-family: Inter;
@@ -103,6 +93,7 @@
 
 .navbarLinks:hover {
   color: #00b6f3;
+  background-position: -100% 50%;
 }
 
 .navbarLinks:hover svg {
@@ -145,7 +136,6 @@
 }
 
 .navbarContact {
-  transition: all 0.3s;
   text-decoration: none;
   cursor: pointer;
   display: flex;
@@ -155,21 +145,9 @@
   align-items: center;
   gap: 8px;
   border-radius: 8px;
-  background: linear-gradient(
-        to bottom right,
-        #204a0e 0%,
-        #41ad13 28%,
-        #214c0e 50%
-      )
-      bottom right / 50% 50% no-repeat,
-    linear-gradient(to bottom left, #204a0e 0%, #41ad13 28%, #214c0e 50%) bottom
-      left / 50% 50% no-repeat,
-    linear-gradient(to top left, #204a0e 0%, #41ad13 28%, #214c0e 50%) top left /
-      50% 50% no-repeat,
-    linear-gradient(to top right, #204a0e 0%, #41ad13 28%, #214c0e 50%) top
-      right / 50% 50% no-repeat;
-  /* Text Style */
-
+  background: linear-gradient(270deg, #204a0e 0%, #41ad13 89.1%, #214c0e 100%);
+  background-size: 400% 400%;
+  transition: background-position 0.3s ease-in-out;
   color: var(--White, #fff);
   font-family: Inter;
   font-size: 18px;
@@ -180,8 +158,9 @@
 }
 
 .navbarContact:hover {
-  background-size: 100% 50%;
+  background-position: -100% 50%;
 }
+
 /* Home */
 
 .Home {
@@ -568,6 +547,594 @@
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
 }
 
+.homeCardContainer {
+  width: 100%;
+  display: flex;
+  padding: 80px 160px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.homeTTMContainer {
+  width: 100%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+}
+
+.homeTTMContainer .box {
+  width: 100%;
+  height: 200px;
+  transition: all 0.3s;
+}
+/* Blue1 */
+
+.Blue1 .box1 {
+  border-radius: 16px 0px 0px 0px;
+  background: linear-gradient(270deg, #fff 0.32%, #00b6f3 272.51%);
+}
+.Blue1 .box2 {
+  background: linear-gradient(181deg, #00b6f3 -117.68%, #fff 99.32%);
+}
+.Blue1 .box3 {
+  border-radius: 0px 16px 0px 0px;
+  background: linear-gradient(180deg, #fff 0%, #00b6f3 218.75%);
+}
+.Blue1 .box4 {
+  background: linear-gradient(90deg, #fff 4.29%, #00b6f3 212.33%);
+}
+.Blue1 .box6 {
+  background: linear-gradient(90deg, #fff 4.87%, #00b6f3 186.33%);
+}
+.Blue1 .box7 {
+  border-radius: 0px 0px 0px 16px;
+  background: linear-gradient(0deg, #fff -16.5%, #00b6f3 241.25%);
+}
+.Blue1 .box8 {
+  background: linear-gradient(270deg, #fff -26.71%, #00b6f3 261.05%);
+}
+.Blue1 .box9 {
+  border-radius: 0px 0px 16px 0px;
+  background: linear-gradient(1deg, #00b6f3 -193.23%, #fff 102.8%);
+}
+
+/* Green1 */
+
+.Green1 .box1 {
+  border-radius: 16px 0px 0px 0px;
+  background: linear-gradient(359deg, #fff -58.73%, #b9ff9c 310.62%);
+}
+.Green1 .box2 {
+  background: linear-gradient(90deg, #fff 5.54%, #b9ff9c 153.83%);
+}
+.Green1 .box3 {
+  border-radius: 0px 16px 0px 0px;
+  background: linear-gradient(90deg, #fff 25.92%, #b9ff9c 170.33%);
+}
+.Green1 .box4 {
+  background: linear-gradient(270deg, #fff 9.38%, #b9ff9c 183.51%);
+}
+.Green1 .box6 {
+  background: linear-gradient(180deg, #fff 16.73%, #b9ff9c 186.38%);
+}
+.Green1 .box7 {
+  border-radius: 0px 0px 0px 16px;
+  background: linear-gradient(90deg, #fff -50.71%, #b9ff9c 212.09%);
+}
+.Green1 .box8 {
+  background: linear-gradient(180deg, #fff -20.98%, #b9ff9c 213.63%);
+}
+.Green1 .box9 {
+  border-radius: 0px 0px 16px 0px;
+  background: linear-gradient(270deg, #fff 6.68%, #b9ff9c 145.93%);
+}
+
+/* Blue2 */
+
+.Blue2 .box1 {
+  border-radius: 16px 0px 0px 0px;
+  background: linear-gradient(358deg, #fff -23.43%, #009dd2 312.56%);
+}
+.Blue2 .box2 {
+  background: linear-gradient(90deg, #009dd2 -103.61%, #fff 113.02%);
+}
+.Blue2 .box3 {
+  border-radius: 0px 16px 0px 0px;
+  background: linear-gradient(180deg, #fff 0%, #009dd2 218.75%);
+}
+.Blue2 .box4 {
+  background: linear-gradient(179deg, #fff -29.38%, #009dd2 236.11%);
+}
+.Blue2 .box6 {
+  background: linear-gradient(270deg, #fff 0.24%, #009dd2 179.62%);
+}
+.Blue2 .box7 {
+  border-radius: 0px 0px 0px 16px;
+  background: linear-gradient(270deg, #fff -8.55%, #009dd2 212.28%);
+}
+.Blue2 .box8 {
+  background: linear-gradient(90deg, #fff -12.33%, #009dd2 187.8%);
+}
+.Blue2 .box9 {
+  border-radius: 0px 0px 16px 0px;
+  background: linear-gradient(180deg, #009dd2 -155.75%, #fff 118.5%);
+}
+
+/* Green2 */
+
+.Green2 .box1 {
+  border-radius: 16px 0px 0px 0px;
+  background: linear-gradient(270deg, #fff 9.38%, #a5fd81 156.57%);
+}
+.Green2 .box2 {
+  background: linear-gradient(180deg, #fff -42.18%, #a5fd81 203.29%);
+}
+.Green2 .box3 {
+  border-radius: 0px 16px 0px 0px;
+  background: linear-gradient(357deg, #fff -12.39%, #a5fd81 119.63%);
+}
+.Green2 .box4 {
+  background: linear-gradient(90deg, #fff -50.54%, #a5fd81 194.64%);
+}
+.Green2 .box6 {
+  background: linear-gradient(89deg, #fff -0.06%, #a5fd81 139.45%);
+}
+.Green2 .box7 {
+  border-radius: 0px 0px 0px 16px;
+  background: linear-gradient(1deg, #fff -94.83%, #a5fd81 272.24%);
+}
+.Green2 .box8 {
+  background: linear-gradient(270deg, #fff 12.54%, #a5fd81 138.87%);
+}
+.Green2 .box9 {
+  border-radius: 0px 0px 16px 0px;
+  background: linear-gradient(180deg, #fff -61.15%, #a5fd81 210.5%);
+}
+
+/* Blue3 */
+
+.Blue3 .box1 {
+  border-radius: 16px 0px 0px 0px;
+  background: linear-gradient(89deg, #fff -21.22%, #0885b0 296.16%);
+}
+.Blue3 .box2 {
+  background: linear-gradient(180deg, #0885b0 -285.12%, #fff 285.13%);
+}
+
+.Blue3 .box3 {
+  border-radius: 0px 16px 0px 0px;
+  background: linear-gradient(270deg, #fff 3.27%, #0885b0 160.83%);
+}
+
+.Blue3 .box4 {
+  background: linear-gradient(270deg, #fff -51.71%, #0885b0 298.17%);
+}
+
+.Blue3 .box6 {
+  background: linear-gradient(180deg, #fff -21.5%, #0885b0 191.25%);
+}
+
+.Blue3 .box7 {
+  border-radius: 0px 0px 0px 16px;
+  background: linear-gradient(180deg, #fff -29%, #0885b0 262.5%);
+}
+
+.Blue3 .box8 {
+  background: linear-gradient(180deg, #fff -44.63%, #0885b0 328.62%);
+}
+
+.Blue3 .box9 {
+  border-radius: 0px 0px 16px 0px;
+  background: linear-gradient(269deg, #0885b0 -68.45%, #fff 99.54%);
+}
+
+/* Green3 */
+
+.Green3 .box1 {
+  border-radius: 16px 0px 0px 0px;
+  background: linear-gradient(90deg, #fff -55.55%, #86e55e 169.66%);
+}
+.Green3 .box2 {
+  background: linear-gradient(180deg, #fff -42.18%, #86e55e 203.29%);
+}
+
+.Green3 .box3 {
+  border-radius: 0px 16px 0px 0px;
+  background: linear-gradient(90deg, #fff -3.28%, #86e55e 178.21%);
+}
+
+.Green3 .box4 {
+  background: linear-gradient(181deg, #fff -40.2%, #86e55e 273.79%);
+}
+
+.Green3 .box6 {
+  background: linear-gradient(89deg, #fff -0.06%, #86e55e 139.45%);
+}
+
+.Green3 .box7 {
+  border-radius: 0px 0px 0px 16px;
+  background: linear-gradient(270deg, #fff -49.07%, #86e55e 178.12%);
+}
+
+.Green3 .box8 {
+  background: linear-gradient(90deg, #fff -25.6%, #86e55e 172.79%);
+}
+
+.Green3 .box9 {
+  border-radius: 0px 0px 16px 0px;
+  background: linear-gradient(359deg, #fff -21.7%, #86e55e 170.66%);
+}
+
+/* Blue4 */
+
+.Blue4 .box1 {
+  border-radius: 16px 0px 0px 0px;
+  background: linear-gradient(180deg, #fff -125.5%, #308aaa 259%);
+}
+.Blue4 .box2 {
+  background: linear-gradient(0deg, #fff -26.75%, #308aaa 213.5%);
+}
+.Blue4 .box3 {
+  border-radius: 0px 16px 0px 0px;
+  background: linear-gradient(90deg, #308aaa -87.53%, #fff 130.62%);
+}
+.Blue4 .box4 {
+  background: linear-gradient(1deg, #fff -69.16%, #308aaa 183.03%);
+}
+.Blue4 .box6 {
+  background: linear-gradient(179deg, #308aaa -68.11%, #fff 116.2%);
+}
+.Blue4 .box7 {
+  border-radius: 0px 0px 0px 16px;
+  background: linear-gradient(180deg, #fff -108.39%, #308aaa 226.47%);
+}
+.Blue4 .box8 {
+  background: linear-gradient(180deg, #fff -6.6%, #308aaa 274.51%);
+}
+.Blue4 .box9 {
+  border-radius: 0px 0px 16px 0px;
+  background: linear-gradient(270deg, #308aaa -36.76%, #fff 126.33%);
+}
+
+/* Green4 */
+
+.Green4 .box1 {
+  border-radius: 16px 0px 0px 0px;
+  background: linear-gradient(0deg, #fff -90.64%, #69c144 231.44%);
+}
+.Green4 .box2 {
+  background: linear-gradient(180deg, #fff -52.25%, #69c144 126.75%);
+}
+.Green4 .box3 {
+  border-radius: 0px 16px 0px 0px;
+  background: linear-gradient(270deg, #69c144 -92.08%, #fff 186.8%);
+}
+.Green4 .box4 {
+  background: linear-gradient(270deg, #fff -42.31%, #69c144 154.32%);
+}
+.Green4 .box6 {
+  background: linear-gradient(91deg, #69c144 -48.29%, #fff 106.86%);
+}
+.Green4 .box7 {
+  border-radius: 0px 0px 0px 16px;
+  background: linear-gradient(90deg, #fff -49.17%, #69c144 161.96%);
+}
+.Green4 .box8 {
+  background: linear-gradient(90deg, #fff -2.37%, #69c144 157.24%);
+}
+.Green4 .box9 {
+  border-radius: 0px 0px 16px 0px;
+  background: linear-gradient(178deg, #69c144 -126.53%, #fff 148.16%);
+}
+
+.homeTTMContainer h3 {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 10vw;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 11.2px;
+}
+
+.homeTTMContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 33.33%;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.16);
+}
+
+.homeTTMContent img {
+  width: 100%;
+  height: 322px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.homeTTMContent h4 {
+  transition: all 0.3s;
+  color: var(--Text-Black-Primary, #111);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.homeDelivering {
+  height: 100%;
+  flex-direction: row;
+  align-self: stretch;
+}
+
+.homeDeliveringLeft {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 48px;
+}
+
+.homeDeliveringContent {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.homeDeliveringContentPara {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.homeDeliveringInfo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.homeDeliveringInfoSet {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.homeDeliveringInfoSet .heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.homeDeliveringInfoSet .heading img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.homeDeliveringInfoSet .heading p {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.homeDeliveringInfoSet span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.homeDeliveringRight {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-self: stretch;
+  position: relative;
+}
+
+.homeDeliveringRightMain {
+  width: 100%;
+  height: 452px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.16);
+}
+
+.homeDeliveringRightContent {
+  position: absolute;
+  left: -30px;
+  bottom: -15%;
+  display: flex;
+  width: 372px;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.16);
+}
+
+.homeDeliveringRightContent h3 {
+  color: #4db122;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.homeDeliveringRightContent p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.testimonyContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.testimonyDiv {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.testimonySlide {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.testimonyRow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+  flex-shrink: 0;
+  padding: 10px;
+}
+
+.testimonySet {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 54px;
+  border-radius: 16px;
+  background: var(--White, #fff);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.testimonySetText {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.testimonySet .heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.testimonySet .heading img {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+}
+
+.testimonySet .heading .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.testimonySet .heading .info p {
+  color: var(--Text-Black-Primary, #111);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.testimonySet .heading .info span {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.testimonyControlDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.testimonyLeft,
+.testimonyRight {
+  cursor: pointer;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: var(--Grey-grey-50, #f2f2f2);
+}
+
+.testimonyLeft svg,
+.testimonyRight svg {
+  width: 32px;
+  height: 32px;
+}
+
 /* Conatct */
 
 .contact {
@@ -727,19 +1294,10 @@
   gap: 8px;
   flex: 1 0 0;
   border-radius: 8px;
-  background: linear-gradient(
-        to bottom right,
-        #204a0e 0%,
-        #41ad13 28%,
-        #214c0e 50%
-      )
-      bottom right / 50% 50% no-repeat,
-    linear-gradient(to bottom left, #204a0e 0%, #41ad13 28%, #214c0e 50%) bottom
-      left / 50% 50% no-repeat,
-    linear-gradient(to top left, #204a0e 0%, #41ad13 28%, #214c0e 50%) top left /
-      50% 50% no-repeat,
-    linear-gradient(to top right, #204a0e 0%, #41ad13 28%, #214c0e 50%) top
-      right / 50% 50% no-repeat;
+  background: linear-gradient(270deg, #204a0e 0%, #41ad13 89.1%, #214c0e 100%);
+  background-size: 400% 400%;
+  transition: background-position 0.3s ease-in-out;
+  border: 0;
   color: var(--White, #fff);
 
   /* L/Semibold */
@@ -749,6 +1307,10 @@
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.36px;
+}
+
+.contactForm button:hover {
+  background-position: -100% 50%;
 }
 
 .contactInfo {

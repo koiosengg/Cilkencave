@@ -158,13 +158,7 @@ function Footer() {
         </div>
       </div>
       <div className="footerDown">
-        <p>{currentYear} All rights reserved</p>
-        <p>
-          Crafted by{" "}
-          <a href="https://koiosengg.com/" target="_blank">
-            Koios Studio
-          </a>
-        </p>
+        <p>{currentYear} All rights reserved to Cilkencave</p>
       </div>
     </div>
   );
