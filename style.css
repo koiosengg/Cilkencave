@@ -880,7 +880,6 @@
 }
 
 .homeDelivering {
-  height: 100%;
   flex-direction: row;
   align-self: stretch;
 }
@@ -891,7 +890,6 @@
   height: 100%;
   flex-direction: column;
   align-items: flex-start;
-  align-self: stretch;
   gap: 48px;
 }
 
@@ -964,17 +962,18 @@
 .homeDeliveringRight {
   display: flex;
   width: 50%;
-  height: 100%;
   align-self: stretch;
   position: relative;
 }
 
 .homeDeliveringRightMain {
   width: 100%;
-  height: 452px;
+  height: 100%;
+  align-self: stretch;
   object-fit: cover;
   border-radius: 16px;
   box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.16);
+  position: absolute;
 }
 
 .homeDeliveringRightContent {
@@ -1133,6 +1132,503 @@
 .testimonyRight svg {
   width: 32px;
   height: 32px;
+}
+
+/* Careers */
+
+.BannerContainer {
+  width: 100%;
+  height: 100svh;
+  overflow: hidden;
+  padding: 14px 24px;
+  padding-top: 94px;
+  position: relative;
+}
+
+.Banner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.Banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.BannerText {
+  padding: 100px 50px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.BannerText h1 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -4.8px;
+  background: linear-gradient(90deg, #9fe7ff 0%, #7ed957 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.BannerText p {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(90deg, #4db122 0%, #00b6f3 100%);
+  color: #fff;
+
+  /* XL/Semibold */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.careersBenefitContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.careersBenefitSet {
+  display: flex;
+  width: 100%;
+  padding: 40px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+}
+
+.careersBenefitSet img {
+  height: 149px;
+  object-fit: cover;
+}
+
+.careersBenefitSet .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 24px;
+  align-self: stretch;
+  gap: 16px;
+  position: relative;
+}
+
+.careersBenefitSet .text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 1px;
+  background: #c2c2c2;
+}
+
+.careersBenefitSet .text h3 {
+  color: #222;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.careersBenefitSet .text p {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+.careerAbout {
+  width: 100%;
+  display: flex;
+  padding: 80px 160px;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.careerAbout img {
+  width: 50%;
+  align-self: stretch;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.16);
+}
+
+.careerAboutText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.careerAboutInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.careerAboutInfoSet {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.careerAboutInfoHeading {
+  color: var(--Green-Primary, #4db122);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.careerAboutInfoPara {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.careersJobContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.careersJobHeading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.jobTypeOption {
+  display: flex;
+  height: 40px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--Text-Black-text-black-300, #606060);
+  color: var(--Text-Black-Primary, #111);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  cursor: pointer;
+}
+
+.activeJobTypeOption {
+  border: 0;
+  background: var(--Green-Primary, #4db122);
+  color: var(--White, #fff);
+}
+
+.jobTypeOption:not(.activeJobTypeOption):hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.careersJobList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.careersJobSet {
+  width: 100%;
+  display: flex;
+  padding-bottom: 40px;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  border-bottom: 1px solid var(--Grey-grey-100, #d6d6d6);
+}
+
+.careersJobInfo {
+  display: flex;
+  width: 597px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.careersJobInfoText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.careersJobInfoText h3 {
+  color: var(--Text-Black-Primary, #111);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.careersJobInfoText p {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.careersJobInfoTabContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.careersJobInfoTab {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--Text-Black-text-black-300, #606060);
+  color: var(--Text-Black-Primary, #111);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.careersJobInfoTab img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.careersJobLink {
+  text-decoration: none;
+  transition: all 0.3s;
+  display: flex;
+  height: 52px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  color: var(--Green-Primary, #4db122);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.careersJobLink svg {
+  width: 20px;
+  height: 20px;
+}
+
+.careersJobLink:hover {
+  color: var(--Green-green-800, #2a6113);
+}
+
+.careersJobLink:hover svg path {
+  fill: #2a6113;
+}
+
+.jobDetailsPage .contactBannerContent h1 {
+  height: auto;
+  width: 900px;
+}
+
+.jobDetails {
+  width: 100%;
+  display: flex;
+  padding: 80px 160px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  align-self: stretch;
+}
+
+.jobDetailsContainer {
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.jobPostedDate {
+  display: flex;
+  padding-bottom: 16px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-bottom: 1px solid var(--Grey-grey-100, #d6d6d6);
+}
+
+.jobPostedDate img {
+  width: 20px;
+  height: 20px;
+}
+
+.jobPostedDate p {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.jobDetailsInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.jobDetails .careersJobInfo {
+  width: 100%;
+}
+
+.jobDetailsInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.jobDetailsAboutCompany {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  padding: 40px 0px;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.jobDetailsAboutCompany h4 {
+  color: var(--Text-Black-Primary, #111);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.jobDetailsAboutCompany p {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.jobDescription {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.jobDescription h4 {
+  color: var(--Text-Black-Primary, #111);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.jobDescription ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  padding-left: 20px;
+}
+
+.jobDescription li {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
 }
 
 /* Conatct */

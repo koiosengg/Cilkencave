@@ -57,7 +57,7 @@ function Navbar() {
         <Link to="/about" className="navbarLinks">
           About Us
         </Link>
-        <Link to="/about" className="navbarLinks">
+        <Link to="/careers" className="navbarLinks">
           Careers
         </Link>
       </div>
