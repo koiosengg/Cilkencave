@@ -83,16 +83,16 @@ function Footer() {
             <p>Company</p>
             <div className="footerColumnList">
               <a>About Us</a>
-              <a>Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
               <a>Events</a>
-              <a>Career</a>
+              <Link to="/careers">Career</Link>
               <a>Privacy</a>
             </div>
           </div>
           <div className="footerColumn">
             <p>Official Info</p>
             <div className="footerColumnList">
-              <a>
+              <a href="tel:9902978741">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -105,10 +105,10 @@ function Footer() {
                     fill="white"
                     fillOpacity="0.8"
                   />
-                </svg>{" "}
-                +91 125676789
+                </svg>
+                +91 9902978741
               </a>
-              <a>
+              <a href="mailto:hr@cilkencave.com" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -121,8 +121,8 @@ function Footer() {
                     fill="white"
                     fillOpacity="0.8"
                   />
-                </svg>{" "}
-                info@cilkencave.co
+                </svg>
+                hr@cilkencave.com
               </a>
               <a>
                 <svg

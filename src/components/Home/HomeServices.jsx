@@ -28,9 +28,9 @@ function HomeServices() {
               <h3>Silicon Engineering</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Mattis auctor quis risus a
-              in risus elit velit. Tempus massa sem adipiscing sed lorem.
-              Viverra ut quam ornare lorem tortor.
+              Customized semiconductor solutions optimized for performance,
+              energy efficiency, and scalability. We design, verify, and deliver
+              custom silicon innovations.
             </p>
           </div>
           <Link to="/">
@@ -69,9 +69,9 @@ function HomeServices() {
               <h3>System Design</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Mattis auctor quis risus a
-              in risus elit velit. Tempus massa sem adipiscing sed lorem.
-              Viverra ut quam ornare lorem tortor.
+              From concept to deployment, we provide end-to-end system design
+              services for complex hardware and software integrations. Our
+              solutions ensure seamless functionality.
             </p>
           </div>
           <Link to="/">
@@ -113,9 +113,9 @@ function HomeServices() {
               <h3>Embedded Solutions</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Mattis auctor quis risus a
-              in risus elit velit. Tempus massa sem adipiscing sed lorem.
-              Viverra ut quam ornare lorem tortor.
+              Advanced embedded systems built for precision, reliability, and
+              high-performance applications. We specialize in custom firmware
+              and hardware development.
             </p>
           </div>
           <Link to="/">
@@ -157,9 +157,9 @@ function HomeServices() {
               <h3>Artificial Intelligence</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Mattis auctor quis risus a
-              in risus elit velit. Tempus massa sem adipiscing sed lorem.
-              Viverra ut quam ornare lorem tortor.
+              Harness our AI technologies to accelerate innovation in your
+              automation, data analysis, and decision-making. We integrate
+              machine learning into cutting-edge applications.
             </p>
           </div>
           <Link to="/">
@@ -201,9 +201,9 @@ function HomeServices() {
               <h3>Automotive Solutions</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Mattis auctor quis risus a
-              in risus elit velit. Tempus massa sem adipiscing sed lorem.
-              Viverra ut quam ornare lorem tortor.
+              Innovative automotive technology solutions driving the future of
+              mobility. We deliver smart, connected, and autonomous systems for
+              the automotive industry.
             </p>
           </div>
           <Link to="/">

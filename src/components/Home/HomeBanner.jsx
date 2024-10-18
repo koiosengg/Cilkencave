@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Banner1 from "../../assets/Home/Banner.svg";
-import Banner2 from "../../assets/Home/Banner.svg";
+import Banner2 from "../../assets/Home/Banner 2.svg";
 import Banner3 from "../../assets/Home/Banner.svg";
 
 function HomeBanner() {

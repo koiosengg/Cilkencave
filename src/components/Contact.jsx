@@ -46,7 +46,7 @@ function Contact() {
           <button type="submit">Submit</button>
         </form>
         <div className="contactInfo">
-          <a href="/" className="contactInfoSet">
+          <a href="tel:9902978741" className="contactInfoSet">
             <div className="heading">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ function Contact() {
               </svg>
               <h2>Contact Us</h2>
             </div>
-            <p>+91 9089787656</p>
+            <p>+91 9902978741</p>
           </a>
           <a href="/" className="contactInfoSet">
             <div className="heading">
@@ -88,7 +88,7 @@ function Contact() {
               : 560066
             </p>
           </a>
-          <a href="/" className="contactInfoSet">
+          <a href="mailto:hr@cilkencave.com" target="_blank" className="contactInfoSet">
             <div className="heading">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +104,7 @@ function Contact() {
               </svg>
               <h2>E-Mail </h2>
             </div>
-            <p>hr@cilckncave.com</p>
+            <p>hr@cilkencave.com</p>
           </a>
         </div>
       </div>
@@ -112,7 +112,9 @@ function Contact() {
         <div className="info">
           <div className="heading">
             <h2>Grow your Business with Our Expertise</h2>
-            <a onClick={scrollToForm}><p>Contact Us</p></a>
+            <a onClick={scrollToForm}>
+              <p>Contact Us</p>
+            </a>
           </div>
           <p>
             We understand the importance of approaching each work integrally and

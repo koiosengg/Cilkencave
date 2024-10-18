@@ -7,15 +7,17 @@ import CalendarSVG from "../assets/Careers/CareersMainPage/CalendarSVG.svg";
 import LocationSVG from "../assets/Careers/CareersMainPage/LocationSVG.svg";
 import TimeSVG from "../assets/Careers/CareersMainPage/TimeSVG.svg";
 
+import CareersFrom from "./Careers/CareersFrom";
+
 function JobDetails() {
-  const { jobTitle } = useParams(); 
+  const { jobTitle } = useParams();
 
   const job = jobData.find(
-    (job) => job.title.replace(/\s+/g, "_") === jobTitle 
+    (job) => job.title.replace(/\s+/g, "_") === jobTitle
   );
 
   if (!job) {
-    return <div>Job not found</div>; 
+    return <div>Job not found</div>;
   }
 
   return (
@@ -72,6 +74,7 @@ function JobDetails() {
             </div>
           </div>
         </div>
+        <CareersFrom />
       </div>
     </div>
   );

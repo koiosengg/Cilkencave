@@ -9,20 +9,24 @@ function HomeDelivering() {
       <div className="homeDeliveringLeft">
         <div className="homeContainerHeading">
           <p>
-            Innovative Services, <br /> Exceptional Results
+            Delivering
+            <br /> Innovative Solutions  <br /> Globally
           </p>
           <div className="homeContainerHeadingH2">
-            <h2>What We Offer</h2>
+            <h2>Who We Are</h2>
           </div>
         </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
-            CilkenCave Semiconductor is rapidly emerging as a global leader in
-            delivering comprehensive engineering solutions. We specialize in
-            providing end-to-end services in Semiconductor, Embedded Systems,
-            Automotive, and System Design, all under one roof. Our expertise
-            empowers clients to create next-generation leadership products,
-            achieving both immediate success and sustainable long-term growth.
+            At CilkenCave, we are committed to providing cutting-edge
+            semiconductor solutions that drive progress. Our global team of
+            experts works tirelessly to develop technologies that meet the
+            ever-evolving needs of our clients. With a focus on quality and
+            innovation, we ensure our services are both reliable and efficient.
+            Partnering with us means accessing the best in silicon engineering,
+            system design, embedded solutions, artificial intelligence, and
+            automotive technologies. Together, we can transform your ideas into
+            reality and shape the future of technology.
           </p>
           <div className="homeDeliveringInfo">
             <div className="homeDeliveringInfoSet">
@@ -31,7 +35,8 @@ function HomeDelivering() {
                 <p>Experience</p>
               </div>
               <span>
-                Our great team of more than 1000 + Scientists & Engineer Experts
+                We provide top technology solutions designed for the specific
+                needs of markets around the world.
               </span>
             </div>
             <div className="homeDeliveringInfoSet">
@@ -40,7 +45,8 @@ function HomeDelivering() {
                 <p>Quick Support</p>
               </div>
               <span>
-                Our great team of more than 1000 + Scientists & Engineer Experts
+                Our dedicated support team is here for you, ready to assist with
+                any issues you may have and we’ll get you back on track!
               </span>
             </div>
           </div>
@@ -51,8 +57,8 @@ function HomeDelivering() {
         <div className="homeDeliveringRightContent">
           <h3>Empowering Innovation</h3>
           <p>
-            Netus nisl id ut volutpat ipsum purus. Non ullamcorper faucibus elit
-            sit feugiat rutrum ac eu elementum. Ut morbi urna ipsum risus.
+            Our advanced solutions help industries grow and adapt to new
+            technologies.
           </p>
         </div>
       </div>

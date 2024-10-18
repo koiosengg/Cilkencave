@@ -79,10 +79,10 @@ function HomeTTM() {
     <div className="homeContainer homeTTM">
       <div className="homeContainerHeading">
         <p>
-          Innovative Services, <br /> Exceptional Results
+          Efficient Solutions for <br /> Faster TTM
         </p>
         <div className="homeContainerHeadingH2">
-          <h2>What We Offer</h2>
+          <h2>Solutions</h2>
         </div>
       </div>
       <div className={`homeTTMContainer ${currentSolution.colour}`}>

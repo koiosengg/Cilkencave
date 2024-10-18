@@ -14,7 +14,7 @@ function HomeCareerLink() {
           </h4>
           <p>Check out exciting Job Opportunities with us.</p>
         </div>
-        <Link to="/" className="linkCardButton">
+        <Link to="/careers" className="linkCardButton">
           Apply Now
         </Link>
       </div>
