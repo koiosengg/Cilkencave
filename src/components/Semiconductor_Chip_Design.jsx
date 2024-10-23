@@ -17,7 +17,11 @@ function Semiconductor_Chip_Design() {
       <Banner />
       <AboutService />
       <HomeCareerLink />
-      <img src={DivImg} className="SemiconductorDivImg"></img>
+      <img
+        src={DivImg}
+        alt="Cilkencave emiconductor Chip Design"
+        className="SemiconductorDivImg"
+      ></img>
       <Architecture />
       <RTL />
       <RTL2GDS />

@@ -1,5 +1,5 @@
 import React from "react";
-import BannerImg from "../../assets/Embedded_Solutions/BannerImg.svg";
+import BannerImg from "../../assets/Embedded_Solutions/BannerImg.png";
 
 function Banner() {
   return (

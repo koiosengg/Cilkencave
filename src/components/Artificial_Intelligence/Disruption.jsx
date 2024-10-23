@@ -21,9 +21,9 @@ function Disruption() {
       </div>
       <div className="KeyFeatures">
         <div className="KeyFeaturesContainer">
-          <div className="ThreeFeatureSet">
+          <div className="homeServiceSetText">
             <div className="heading">
-              <img src={DataServicesImg}></img>
+              <img src={DataServicesImg} alt="Data Services Cilkencave" />
               <h3>Data Services</h3>
             </div>
             <p>
@@ -32,9 +32,9 @@ function Disruption() {
               for CV / NLP tasks.
             </p>
           </div>
-          <div className="ThreeFeatureSet">
+          <div className="homeServiceSetText">
             <div className="heading">
-              <img src={CodeGenerationImg}></img>
+              <img src={CodeGenerationImg} alt="Code Generation Cilkencave" />
               <h3>Code Generation</h3>
             </div>
             <p>
@@ -43,9 +43,9 @@ function Disruption() {
               on device.
             </p>
           </div>
-          <div className="ThreeFeatureSet">
+          <div className="homeServiceSetText">
             <div className="heading">
-              <img src={AIinTestImg}></img>
+              <img src={AIinTestImg} alt="AI in Test Cilkencave" />
               <h3>AI in Test</h3>
             </div>
             <p>
