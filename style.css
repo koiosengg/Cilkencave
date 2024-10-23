@@ -1411,6 +1411,13 @@
   letter-spacing: -0.32px;
 }
 
+.AboutService .homeTTMContent{
+  position: static;
+  animation: none;
+  transform: none;
+  width: 100%;
+}
+
 /* Careers */
 
 .BannerContainer {
