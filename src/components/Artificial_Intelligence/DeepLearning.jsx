@@ -1,5 +1,5 @@
 import React from "react";
-import DeepLearningImg from "../../assets/Artificial_Intelligence/DeepLearningImg.jfif";
+import DeepLearningImg from "../../assets/Artificial_Intelligence/Deep Learning.jpeg";
 
 function DeepLearning() {
   return (

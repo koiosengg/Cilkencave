@@ -1,5 +1,5 @@
 import React from "react";
-import EnablerImg from "../../assets/System_Design/EnablerImg.jfif";
+import EnablerImg from "../../assets/System_Design/Enabler In System Design.jpg";
 import KeyFeatureArrow from "/KeyFeatureArrow.svg";
 
 function Enabler() {
@@ -43,9 +43,7 @@ function Enabler() {
       </div>
       <div className="KeyFeatures">
         <h3>Key Features</h3>
-        <div
-          className="KeyFeaturesContainer"
-        >
+        <div className="KeyFeaturesContainer">
           <div className="KeyFeatureSet">
             <img src={KeyFeatureArrow}></img>
             <p>Delivering Next-Gen IoT solutions</p>

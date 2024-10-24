@@ -1,5 +1,5 @@
 import React from "react";
-import AnalogImg from "../../assets/Semiconductor_Chip_Design/AnalogImg.jfif";
+import AnalogImg from "../../assets/Semiconductor_Chip_Design/Analog Design and Layout-min.jpg";
 
 function Analog() {
   return (

@@ -5,12 +5,12 @@ import Agriculture from "../../assets/Home/HomeIndustries/Agriculture Cilkencave
 import Automotive from "../../assets/Home/HomeIndustries/Automotive Cilkencave.webp";
 import Medical from "../../assets/Home/HomeIndustries/Medical Devices Cilkencave.jpg";
 import AI from "../../assets/Home/HomeIndustries/AI & Robotics Cilkencave.jpg";
-import Security from "../../assets/Home/HomeIndustries/Security Cilkencave.jfif";
-import Consumer from "../../assets/Home/HomeIndustries/Consumer Electronics Cilkencave.jfif";
-import Aerospace from "../../assets/Home/HomeIndustries/Aerospace Cilkencave.jfif";
+import Security from "../../assets/Home/HomeIndustries/security services- homepage - cilkencave-min.jpeg";
+import Consumer from "../../assets/Home/HomeIndustries/Consumer Electronics-cilkencave services homepage.webp";
+import Aerospace from "../../assets/Home/HomeIndustries/aerospace- cilkencave services semiconductors- homepage.webp";
 import IndustrialAutomation from "../../assets/Home/HomeIndustries/Industrial Automation Cilkencave.jfif";
-import Logistics from "../../assets/Home/HomeIndustries/Transport & Logistics Cilkencave.jfif";
-import HomeAutomation from "../../assets/Home/HomeIndustries/Home Automation Cilkencave.jfif";
+import Logistics from "../../assets/Home/HomeIndustries/transport and logistics cilkencave services homepage.avif";
+import HomeAutomation from "../../assets/Home/HomeIndustries/Smart-home-Automation-Control-System cilkencave services homepage-min.jpg";
 
 function HomeIndustries() {
   // Array of industry objects

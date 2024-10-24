@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 
-import RTLDesign from "../../assets/Home/HomeTTM/RTL Design Cilkencave.jfif";
-import DesignVerification from "../../assets/Home/HomeTTM/Design Verification Cilkencave.jfif";
-import DFT from "../../assets/Home/HomeTTM/DFT Cilkencave.jfif";
-import PhysicalDesign from "../../assets/Home/HomeTTM/Physical Design Cilkencave.jfif";
-import EmbeddedSoftware from "../../assets/Home/HomeTTM/Embedded Software Cilkencave.jfif";
-import ProductEngineering from "../../assets/Home/HomeTTM/Product Engineering Cilkencave.jfif";
-import Automotive from "../../assets/Home/HomeTTM/Automotive Cilkencave.jfif";
-import ArtificialIntelligence from "../../assets/Home/HomeTTM/Artificial Intelligence Cilkencave.jfif";
+import RTLDesign from "../../assets/Home/HomeTTM/RTL-Design-Efficient Solutions- cilkencave solutions.png";
+import DesignVerification from "../../assets/Home/HomeTTM/VLSI Design Veification Homepage Efficient Solutions-min.jpg";
+import DFT from "../../assets/Home/HomeTTM/DFT Efficient Solutions hompeage cilkencave-min.jpg";
+import PhysicalDesign from "../../assets/Home/HomeTTM/physical design Efficient Solutions cilkencave-min.jpg";
+import EmbeddedSoftware from "../../assets/Home/HomeTTM/embedded systems efficient solutions homepage-min.jpg";
+import ProductEngineering from "../../assets/Home/HomeTTM/product engineering seeficient solutions homepage.webp";
+import Automotive from "../../assets/Home/HomeTTM/Automotive Semiconductor efficient solutions homepage cilkencave-min.png";
+import ArtificialIntelligence from "../../assets/Home/HomeTTM/AI Efficient solutions homepage cilkencave-min.jpeg";
 
 function HomeTTM() {
   const solutions = [
@@ -27,7 +27,7 @@ function HomeTTM() {
       colour: "Blue2",
       img: DFT,
       altText: "Cilkencave DFT",
-      heading: "DFT",
+      heading: "Design For Test",
     },
     {
       colour: "Green2",

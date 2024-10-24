@@ -1,11 +1,14 @@
 import React from "react";
 import CareersAboutImg from "../../assets/Careers/CareersMainPage/Careers About.jfif";
+import Accelerating from "../../assets/Careers/CareersMainPage/Accelerating the Future of Semiconductors.png";
+import Endless from "../../assets/Careers/CareersMainPage/endless growth-min.jpg";
+import Positions from "../../assets/Careers/CareersMainPage/Open-Positions-min.jpg";
 
 function CareersAbout() {
   return (
     <div>
       <div className="careerAbout">
-        <img src={CareersAboutImg}></img>
+        <img src={Accelerating}></img>
         <div className="careerAboutText">
           <div className="homeContainerHeading">
             <p>
@@ -73,10 +76,10 @@ function CareersAbout() {
             </div>
           </div>
         </div>
-        <img src={CareersAboutImg}></img>
+        <img src={Endless}></img>
       </div>
       <div className="careerAbout">
-        <img src={CareersAboutImg}></img>
+        <img src={Positions}></img>
         <div className="careerAboutText">
           <div className="homeContainerHeading">
             <p>Open Positions</p>

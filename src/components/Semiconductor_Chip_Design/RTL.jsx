@@ -1,5 +1,5 @@
 import React from "react";
-import RTLImg from "../../assets/Semiconductor_Chip_Design/RTLImg.jfif";
+import RTLImg from "../../assets/Semiconductor_Chip_Design/RTL VERIFICATION AND DESIGN SEMICONDUCTOR CHIP SERVICES-min.jpg";
 
 function RTL() {
   return (

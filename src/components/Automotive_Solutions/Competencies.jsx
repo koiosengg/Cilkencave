@@ -1,5 +1,5 @@
 import React from "react";
-import CompetenciesImg from "../../assets/Automotive_Solutions/CompetenciesImg.jfif"
+import CompetenciesImg from "../../assets/Automotive_Solutions/core competncies.jpg"
 import VerificationAndValidationImg from "../../assets/Automotive_Solutions/VerificationAndValidationImg.svg"
 import EVandPowertrainImg from "../../assets/Automotive_Solutions/EVandPowertrainImg.svg"
 import ISO26262Img from "../../assets/Automotive_Solutions/ISO26262Img.svg"

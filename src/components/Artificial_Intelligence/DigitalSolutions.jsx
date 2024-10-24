@@ -1,5 +1,5 @@
 import React from "react";
-import DigitalSolutionsImg from "../../assets/Artificial_Intelligence/DigitalSolutionsImg.jfif";
+import DigitalSolutionsImg from "../../assets/Artificial_Intelligence/Digital Solutions.jpeg";
 
 function DigitalSolutions() {
   return (

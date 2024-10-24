@@ -1,5 +1,5 @@
 import React from "react";
-import FPGAImg from "../../assets/Semiconductor_Chip_Design/FPGAImg.jpg";
+import FPGAImg from "../../assets/Semiconductor_Chip_Design/Board & FPGA Design-min.jpg";
 import KeyFeatureArrow from "/KeyFeatureArrow.svg";
 function FPGA() {
   return (

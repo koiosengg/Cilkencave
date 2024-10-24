@@ -1,5 +1,5 @@
 import React from "react";
-import MainImg from "../../assets/Embedded_Solutions/MainImg.jfif";
+import MainImg from "../../assets/Embedded_Solutions/Embedded Solutions.jpg";
 
 function AboutService() {
   return (

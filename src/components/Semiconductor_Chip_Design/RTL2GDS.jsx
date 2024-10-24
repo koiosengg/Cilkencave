@@ -1,5 +1,5 @@
 import React from "react";
-import RTL2GDSImg from "../../assets/Semiconductor_Chip_Design/RTL2GDSImg.jpg";
+import RTL2GDSImg from "../../assets/Semiconductor_Chip_Design/RTL2GDS-min.jpg";
 import KeyFeatureArrow from "/KeyFeatureArrow.svg";
 
 function RTL2GDS() {

@@ -1,6 +1,11 @@
 import React from "react";
-import MainImg from "../../assets/Automotive_Solutions/MainImg.jfif";
-import AutomotiveTestImg from "../../assets/Automotive_Solutions/AutomotiveTestImg.jfif";
+import MainImg from "../../assets/Automotive_Solutions/Automotive Solutions.webp";
+import EmbeddedSoftware from "../../assets/Automotive_Solutions/Embedded_Software.jpeg";
+import AUTOSAR from "../../assets/Automotive_Solutions/Automatic Platform Software (AUTO SAR).jpg";
+import Validation from "../../assets/Automotive_Solutions/Verification & Validation.jpg";
+import ADAS from "../../assets/Automotive_Solutions/ADAS & IN - Vehicle Infotainemnet.webp"
+import Autonomous from "../../assets/Automotive_Solutions/Autonomous Driving & Connected Cars.jpeg";
+import Safety from "../../assets/Automotive_Solutions/Safety & Security.jpeg";
 
 function AboutService() {
   return (
@@ -43,35 +48,35 @@ function AboutService() {
       <div className="KeyFeatures">
         <div className="KeyFeaturesContainer">
           <div className="homeTTMContent">
-            <img src={AutomotiveTestImg} alt="" />
+            <img src={EmbeddedSoftware} alt="" />
             <h4>
               Embedded <br />
               Software
             </h4>
           </div>
           <div className="homeTTMContent">
-            <img src={AutomotiveTestImg} alt="" />
+            <img src={AUTOSAR} alt="" />
             <h4>
               Automatic Platform
               <br /> Software (AUTO SAR)
             </h4>
           </div>
           <div className="homeTTMContent">
-            <img src={AutomotiveTestImg} alt="" />
+            <img src={Validation} alt="" />
             <h4>
               Verification &<br />
               Validation
             </h4>
           </div>
           <div className="homeTTMContent">
-            <img src={AutomotiveTestImg} alt="" />
+            <img src={ADAS} alt="" />
             <h4>
               ADAS & IN - Vehicle <br />
               Infotainemnet
             </h4>
           </div>
           <div className="homeTTMContent">
-            <img src={AutomotiveTestImg} alt="" />
+            <img src={Autonomous} alt="" />
             <h4>
               Autonomous Driving &
               <br />
@@ -79,7 +84,7 @@ function AboutService() {
             </h4>
           </div>
           <div className="homeTTMContent">
-            <img src={AutomotiveTestImg} alt="" />
+            <img src={Safety} alt="" />
             <h4>
               Safety & <br />
               Security

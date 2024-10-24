@@ -1,5 +1,5 @@
 import React from "react";
-import Generative_AI_Img from "../../assets/Artificial_Intelligence/Generative_AI_Img.jfif";
+import Generative_AI_Img from "../../assets/Artificial_Intelligence/Generative AI.jpg";
 
 function Generative_AI() {
   return (

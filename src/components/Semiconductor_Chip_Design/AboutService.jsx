@@ -1,5 +1,5 @@
 import React from "react";
-import MainImg from "../../assets/Semiconductor_Chip_Design/MainImg.jfif";
+import MainImg from "../../assets/Semiconductor_Chip_Design/silicon engineering semiconductor chip design service page.webp";
 
 function AboutService() {
   return (

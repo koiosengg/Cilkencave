@@ -1,5 +1,5 @@
 import React from "react";
-import MainImg from "../../assets/System_Design/MainImg.jfif";
+import MainImg from "../../assets/System_Design/System Design Engineering.jpg";
 
 function AboutService() {
   return (

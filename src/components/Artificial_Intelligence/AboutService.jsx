@@ -1,5 +1,5 @@
 import React from "react";
-import MainImg from "../../assets/Artificial_Intelligence/MainImg.jfif";
+import MainImg from "../../assets/Artificial_Intelligence/Data Science & ML.jpeg";
 
 function AboutService() {
   return (

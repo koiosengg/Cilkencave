@@ -1,5 +1,5 @@
 import React from "react";
-import ADDMImg from "../../assets/System_Design/ADDMImg.jfif";
+import ADDMImg from "../../assets/System_Design/ADDM Simplifying IoT Edge Management.jpg";
 
 function ADDM() {
   return (
