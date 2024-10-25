@@ -2,40 +2,55 @@ import React, { useState, useEffect } from "react";
 import Banner1 from "../../assets/Home/Banner 3.png";
 import Banner2 from "../../assets/Home/Banner 2.svg";
 import Banner3 from "../../assets/Home/Banner.svg";
+import MobileBanner1 from "../../assets/Home/MobileBannerImg1.png";
+import MobileBanner2 from "../../assets/Home/MobileBannerImg2.png";
+import MobileBanner3 from "../../assets/Home/MobileBannerImg3.png";
 
 function HomeBanner() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const banners = [Banner1, Banner2, Banner3];
+  const [banners, setBanners] = useState([Banner1, Banner2, Banner3]);
   const bannerCount = banners.length;
-  const delay = 5000; // 5 seconds delay
+  const delay = 5000;
 
-  // Function to move to the next banner (if not at the last one)
+  useEffect(() => {
+    const updateBanners = () => {
+      if (window.innerWidth < 1200) {
+        setBanners([MobileBanner1, MobileBanner2, MobileBanner3]);
+      } else {
+        setBanners([Banner1, Banner2, Banner3]);
+      }
+    };
+
+    updateBanners();
+
+    window.addEventListener("resize", updateBanners);
+
+    return () => window.removeEventListener("resize", updateBanners);
+  }, []);
+
   const nextBanner = () => {
     if (currentIndex < bannerCount - 1) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
     } else {
-      setCurrentIndex(0); // If at the last banner, loop back to the first
+      setCurrentIndex(0);
     }
   };
 
-  // Function to move to the previous banner (if not at the first one)
   const prevBanner = () => {
     if (currentIndex > 0) {
       setCurrentIndex((prevIndex) => prevIndex - 1);
     }
   };
 
-  // Use effect to automatically scroll every 5 seconds
   useEffect(() => {
     const timer = setTimeout(nextBanner, delay);
 
-    return () => clearTimeout(timer); // Clear timer on component unmount or when currentIndex changes
+    return () => clearTimeout(timer);
   }, [currentIndex]);
 
-  // Handler to reset the auto-scroll timer when the user interacts with controls
   const handleControlClick = (action) => {
-    clearTimeout(); // Reset the timer
-    action(); // Perform the desired action (next or previous)
+    clearTimeout();
+    action();
   };
 
   return (

@@ -76,7 +76,7 @@ function Testimony() {
         </div>
       </div>
       <div className="testimonyContainer">
-        <div className="testimonyDiv" ref={testimonyDivRef}>
+        <div className="testimonyDiv notMobile" ref={testimonyDivRef}>
           <div
             className="testimonySlide"
             style={{
@@ -103,7 +103,24 @@ function Testimony() {
             ))}
           </div>
         </div>
-        <div className="testimonyControlDiv">
+        <div className="testimonyDiv">
+          {slides.flat().map((testimony, index) => (
+            <div key={index} className="testimonySet">
+              <p className="testimonySetText">{testimony.text}</p>
+              <div className="heading">
+                <img
+                  src={testimony.img}
+                  alt={`${testimony.name}'s testimony`}
+                />
+                <div className="info">
+                  <p>{testimony.name}</p>
+                  <span>{testimony.role}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="testimonyControlDiv notMobile">
           <div
             className="testimonyLeft"
             onClick={handlePrev}

@@ -33,7 +33,7 @@ function HomeServices() {
               custom silicon innovations.
             </p>
           </div>
-          <Link to="/">
+          <Link to="/Semiconductor_Chip_Design">
             <p>Read More</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ function HomeServices() {
               solutions ensure seamless functionality.
             </p>
           </div>
-          <Link to="/">
+          <Link to="/System_Design">
             <p>Read More</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@ function HomeServices() {
               and hardware development.
             </p>
           </div>
-          <Link to="/">
+          <Link to="/Embedded_Solutions">
             <p>Read More</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +162,7 @@ function HomeServices() {
               machine learning into cutting-edge applications.
             </p>
           </div>
-          <Link to="/">
+          <Link to="/Artificial_Intelligence">
             <p>Read More</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -206,7 +206,7 @@ function HomeServices() {
               the automotive industry.
             </p>
           </div>
-          <Link to="/">
+          <Link to="/Automotive_Solutions">
             <p>Read More</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
