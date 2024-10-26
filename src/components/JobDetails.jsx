@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import jobData from "./Careers/jobData.json";
 import ContactBanner from "../assets/Contact/ContactBanner.svg";
-
+import MobileContactBanner from "../assets/Contact/MobileContactBanner.svg";
 import CalendarSVG from "../assets/Careers/CareersMainPage/CalendarSVG.svg";
 import LocationSVG from "../assets/Careers/CareersMainPage/LocationSVG.svg";
 import TimeSVG from "../assets/Careers/CareersMainPage/TimeSVG.svg";
@@ -23,7 +23,16 @@ function JobDetails() {
   return (
     <div className="jobDetailsPage">
       <div className="contactBanner">
-        <img src={ContactBanner} alt="Contact Banner"></img>
+        <img
+          src={ContactBanner}
+          className="notMobile"
+          alt="Contact Banner"
+        ></img>
+        <img
+          src={MobileContactBanner}
+          className="mobile"
+          alt="Contact Banner"
+        ></img>
         <div className="contactBannerContent">
           <h1>{job.title}</h1>
         </div>

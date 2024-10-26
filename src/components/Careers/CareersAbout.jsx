@@ -8,7 +8,7 @@ function CareersAbout() {
   return (
     <div>
       <div className="careerAbout">
-        <img src={Accelerating}></img>
+        <img src={Accelerating} className="notMobile"></img>
         <div className="careerAboutText">
           <div className="homeContainerHeading">
             <p>
@@ -18,6 +18,7 @@ function CareersAbout() {
               <h2>From Startup to Industry Leader</h2>
             </div>
           </div>
+          <img src={Accelerating} className="mobile"></img>
           <div className="careerAboutInfo">
             <p className="careerAboutInfoPara">
               Join us as we take you behind the scenes of Cilkencave, where
@@ -50,6 +51,7 @@ function CareersAbout() {
               <h2>Be a Part of People-Centric Work Culture</h2>
             </div>
           </div>
+          <img src={Endless} className="mobile"></img>
           <div className="careerAboutInfo">
             <div className="careerAboutInfoSet">
               <h3 className="careerAboutInfoHeading">Hiring Freshers :</h3>
@@ -76,10 +78,10 @@ function CareersAbout() {
             </div>
           </div>
         </div>
-        <img src={Endless}></img>
+        <img src={Endless} className="notMobile"></img>
       </div>
       <div className="careerAbout">
-        <img src={Positions}></img>
+        <img src={Positions} className="notMobile"></img>
         <div className="careerAboutText">
           <div className="homeContainerHeading">
             <p>Open Positions</p>
@@ -87,6 +89,7 @@ function CareersAbout() {
               <h2>We are ready for you. Are you too?</h2>
             </div>
           </div>
+          <img src={Positions} className="mobile"></img>
           <div className="careerAboutInfo">
             <p className="careerAboutInfoPara">
               At Cilkencave, we are dedicated to cultivating a workplace culture

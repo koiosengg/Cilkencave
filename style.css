@@ -2698,6 +2698,7 @@
   }
 
   .mobileContactButton {
+    text-decoration: none;
     width: 100%;
     display: flex;
     height: 44px;
@@ -3197,6 +3198,402 @@
     line-height: normal;
     letter-spacing: -0.28px;
   }
+
+  /* About Us */
+
+  .BannerContainer {
+    padding: 12px;
+    padding-top: 68px;
+  }
+
+  .Banner {
+    border-radius: 12px;
+  }
+
+  .BannerText {
+    padding: 0px 40px;
+    bottom: 180px;
+  }
+
+  .BannerText h1 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    background: linear-gradient(90deg, #9fe7ff 4.71%, #7ed957 99.95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .BannerText p {
+    display: inline-flex;
+    padding: 6px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: linear-gradient(90deg, #4db122 0%, #00b6f3 100%),
+      linear-gradient(
+        90deg,
+        rgba(126, 217, 87, 0.5) 0%,
+        rgba(140, 226, 255, 0.5) 100%
+      );
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .aboutusMissionVission {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(255, 255, 255, 0.3) 100%
+      ),
+      linear-gradient(90deg, #d9f5ff 0%, #dfffd1 100%);
+  }
+
+  .aboutusMissionVissionSet {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .aboutusMissionVissionSet h2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+  }
+
+  .aboutusMissionVissionSet p {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  /* Career */
+
+  .careersBenefitContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+
+  .careersBenefitSet {
+    display: flex;
+    padding: 40px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .careersBenefitSet img {
+    height: 120px;
+  }
+
+  .careersBenefitSet .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+  }
+
+  .careersBenefitSet .text::before {
+    width: 100%;
+    background: #606060;
+  }
+
+  .careersBenefitSet .text h3 {
+    color: var(--Text-Black-Primary, #111);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+  }
+
+  .careersBenefitSet .text p {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .careerAbout {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .careerAbout img {
+    width: 100%;
+    height: 313px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.16);
+  }
+
+  .careerAboutText {
+    width: 100%;
+  }
+
+  .careerAboutInfoHeading {
+    color: var(--Green-Primary, #4db122);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+  }
+
+  .careerAboutInfoPara {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .careersJobSet {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom: 1px solid var(--Grey-grey-100, #d6d6d6);
+  }
+
+  .careersJobInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+  }
+
+  .careersJobInfoText h3 {
+    color: var(--Text-Black-Primary, #111);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+  }
+
+  .careersJobInfoText p {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .careersJobInfoTabContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    flex-wrap: wrap;
+  }
+
+  .careersJobInfoTab {
+    display: flex;
+    height: 36px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--Text-Black-text-black-300, #606060);
+    flex-shrink: 0;
+
+    color: var(--Text-Black-Primary, #111);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .careersJobInfoTab img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .careersJobLink {
+    display: flex;
+    padding: 8px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--Green-Primary, #4db122);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  /* Job Page */
+
+  .contactBannerContent {
+    width: 100%;
+  }
+
+  .contactBannerContent h1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .contactBannerContent h1,
+  .jobDetailsPage .contactBannerContent h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    background: linear-gradient(97deg, #4db122 7.96%, #003b82 96.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .contactBannerButton {
+    display: flex;
+    padding: 6px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    border: 1px solid rgba(67, 67, 67, 0.3);
+    color: #84ce64;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .jobDetails {
+    display: flex;
+    padding: 80px 20px 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .jobDetailsContainer {
+    width: 100%;
+  }
+
+  .jobPostedDate p {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .jobDetailsAboutCompany h4{
+    color: var(--Text-Black-Primary, #111);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.4px;
+  }
+
+  .jobDetailsAboutCompany p{
+    color: var(--Text-Black-text-black-300, #606060);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.28px;
+  }
+
+  .jobDescription h4{
+    color: var(--Text-Black-Primary, #111);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.4px;
+  }
+
+  .jobDescription ul{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+  }
+
+  .jobDescription li{
+    color: var(--Text-Black-text-black-300, #606060);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.28px;
+  }
+
+  /* Footer */
 
   .footer {
     display: flex;

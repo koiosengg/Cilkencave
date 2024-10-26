@@ -125,9 +125,9 @@ function Navbar() {
           <path
             d="M8 8H24M8 16H24M8 24H24"
             stroke="#111111"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
         <svg
@@ -143,9 +143,9 @@ function Navbar() {
           <path
             d="M1 1L13.75 13M1 13L13.75 1"
             stroke="#111111"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </div>
@@ -234,7 +234,7 @@ function Navbar() {
             <p>Careers</p>
           </Link>
         </div>
-        <div className="mobileContactButton" onClick={toggleMobileNav}>
+        <Link to="/contact" className="mobileContactButton" onClick={toggleMobileNav}>
           Contact Us
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -261,7 +261,7 @@ function Navbar() {
               />
             </g>
           </svg>
-        </div>
+        </Link>
       </div>
     </div>
   );

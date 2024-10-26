@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import ContactBanner from "../assets/Contact/ContactBanner.svg";
+import MobileContactBanner from "../assets/Contact/MobileContactBanner.svg";
 import ContactImg1 from "../assets/Contact/ContactImg1 Cilkencave.jfif";
 import ContactImg2 from "../assets/Contact/ContactImg2 Cilkencave.svg";
 import ContactImg3 from "../assets/Contact/ContactImg3 Cilkencave.svg";
@@ -16,7 +17,16 @@ function Contact() {
   return (
     <div className="contact">
       <div className="contactBanner">
-        <img src={ContactBanner} alt="Contact Banner"></img>
+        <img
+          src={ContactBanner}
+          className="notMobile"
+          alt="Contact Banner"
+        ></img>
+        <img
+          src={MobileContactBanner}
+          className="mobile"
+          alt="Contact Banner"
+        ></img>
         <div className="contactBannerContent">
           <h1>
             We're Just a <br /> Message Away
@@ -88,7 +98,11 @@ function Contact() {
               : 560066
             </p>
           </a>
-          <a href="mailto:hr@cilkencave.com" target="_blank" className="contactInfoSet">
+          <a
+            href="mailto:hr@cilkencave.com"
+            target="_blank"
+            className="contactInfoSet"
+          >
             <div className="heading">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

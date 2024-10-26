@@ -16,6 +16,16 @@ function AboutUsDelivering() {
             <h2>Who We Are</h2>
           </div>
         </div>
+        <div className="homeDeliveringRight mobile">
+          <img src={MainImg} className="homeDeliveringRightMain"></img>
+          <div className="homeDeliveringRightContent">
+            <h3>Empowering Innovation</h3>
+            <p>
+              Our advanced solutions help industries grow and adapt to new
+              technologies.
+            </p>
+          </div>
+        </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
             At CilkenCave, we are committed to providing cutting-edge
@@ -52,7 +62,7 @@ function AboutUsDelivering() {
           </div>
         </div>
       </div>
-      <div className="homeDeliveringRight">
+      <div className="homeDeliveringRight notMobile">
         <img src={MainImg} className="homeDeliveringRightMain"></img>
         <div className="homeDeliveringRightContent">
           <h3>Empowering Innovation</h3>

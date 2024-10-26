@@ -1,5 +1,5 @@
 import React from "react";
-import UniquenessImg from "../../assets/Home/HomeUniqueness/Cilkencave Uniqueness.jpeg";
+import UniquenessImg from "../../assets/AboutUs/defining excellence about us cilkencave.webp";
 
 export default function HomeUniqueness() {
   return (

@@ -72,17 +72,17 @@ function Footer() {
           <div className="footerColumn">
             <p>Our Offerings</p>
             <div className="footerColumnList">
-              <a>Silicon Engineering</a>
-              <a>System Design</a>
-              <a>Artificial Intelligence</a>
-              <a>Embedded Solutions</a>
-              <a>Automotive Solutions</a>
+              <Link to="/Semiconductor_Chip_Design">Silicon Engineering</Link>
+              <Link to="/System_Design">System Design</Link>
+              <Link to="/Artificial_Intelligence">Artificial Intelligence</Link>
+              <Link to="/Embedded_Solutions">Embedded Solutions</Link>
+              <Link to="/Automotive_Solutions">Automotive Solutions</Link>
             </div>
           </div>
           <div className="footerColumn">
             <p>Company</p>
             <div className="footerColumnList">
-              <a>About Us</a>
+              <Link to="/about">About Us</Link>
               <Link to="/contact">Contact Us</Link>
               <a>Events</a>
               <Link to="/careers">Career</Link>
