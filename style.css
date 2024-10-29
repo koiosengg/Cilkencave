@@ -2518,6 +2518,115 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* Privacy */
+
+.privacy .contactBannerContent h1 {
+  height: auto;
+  width: auto;
+}
+
+.privacy .jobDetailsContainer {
+  gap: 40px;
+}
+
+.privacyHeading {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.privacyHeading .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.privacyHeading h2 {
+  color: var(--Text-Black-Primary, #111);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.privacyPara {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.privacySubSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.privacySub {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.privacySub h3 {
+  color: var(--Green-Primary, #4db122);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.privacy ul {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.privacy li {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.privacyPara a {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  text-decoration-line: underline;
+}
+
+.privacyContact {
+  padding: 0;
+  border: 0;
+}
+
 /* Mobile */
 
 .mobile {
@@ -3152,7 +3261,7 @@
     gap: 16px;
   }
 
-  .testimony .mobile{
+  .testimony .mobile {
     display: flex;
   }
 
@@ -3431,7 +3540,7 @@
     letter-spacing: -0.28px;
   }
 
-  .KeyFeatures .homeTTMContent img{
+  .KeyFeatures .homeTTMContent img {
     height: 300px;
   }
 
@@ -3913,6 +4022,59 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .privacyHeading h2 {
+    color: var(--Text-Black-Primary, #111);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+  }
+
+  .privacyPara {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .privacySubSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .privacySub {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+  }
+
+  .privacy ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+  }
+
+  .privacy li {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
     line-height: normal;
     letter-spacing: -0.28px;
   }

@@ -13,6 +13,7 @@ import System_Design from "./components/System_Design";
 import Artificial_Intelligence from "./components/Artificial_Intelligence";
 import Embedded_Solutions from "./components/Embedded_Solutions";
 import Automotive_Solutions from "./components/Automotive_Solutions";
+import Privacy from "./components/Privacy";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="careers/:jobTitle" element={<JobDetails />} />
           <Route path="about" element={<AboutUs />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="privacy" element={<Privacy />} />
           <Route path="*" element={<Home />} />
         </Route>
       </Routes>

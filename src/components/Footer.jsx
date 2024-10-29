@@ -86,7 +86,7 @@ function Footer() {
               <Link to="/contact">Contact Us</Link>
               <a>Events</a>
               <Link to="/careers">Career</Link>
-              <a>Privacy</a>
+              <Link to="/privacy">Privacy</Link>
             </div>
           </div>
           <div className="footerColumn">
