@@ -2134,8 +2134,6 @@
 }
 
 .contactInfoSet .heading svg {
-  width: 14px;
-  height: 20px;
   fill: var(--Green-Primary, #4db122);
 }
 
@@ -2961,6 +2959,7 @@
     padding: 20px 10px;
     height: 163px;
     gap: 0;
+    border-radius: 4.621px;
   }
 
   .linkCardBackground {
@@ -3545,52 +3544,160 @@
     letter-spacing: -0.28px;
   }
 
-  .jobDetailsAboutCompany h4{
+  .jobDetailsAboutCompany h4 {
     color: var(--Text-Black-Primary, #111);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: -0.4px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
   }
 
-  .jobDetailsAboutCompany p{
+  .jobDetailsAboutCompany p {
     color: var(--Text-Black-text-black-300, #606060);
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: -0.28px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
   }
 
-  .jobDescription h4{
+  .jobDescription h4 {
     color: var(--Text-Black-Primary, #111);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: -0.4px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
   }
 
-  .jobDescription ul{
+  .jobDescription ul {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+  }
+
+  .jobDescription li {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  /* Contact Page */
+
+  .contactFormContainer {
+    display: flex;
+    padding: 80px 20px 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 88px;
+  }
+
+  .contactForm {
+    width: 100%;
+    padding: 0;
+  }
+
+  .contactFormName {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+
+  .contactInfoSet {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+  }
+
+  .contactInfoSet .heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    align-self: stretch;
+  }
+
+  .contactInfoSet .heading h2 {
+    color: var(--Text-Black-Primary, #111);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.32px;
+  }
+
+  .contactInfoSet p {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    text-align: left;
+  }
+
+  .contactBusiness {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .contactBusiness .info {
+    gap: 32px;
+  }
+
+  .contactBusiness .info .heading h2 {
+    color: var(--Green-green-800, #2a6113);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.48px;
+  }
+
+  .contactBusiness .info .heading a p {
+    color: var(--Text-Black-Primary, #111);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .contactCardsContainer{
+    display: flex;
+padding: 48px 20px;
 flex-direction: column;
 align-items: flex-start;
-gap: 20px;
-align-self: stretch;
-  }
-
-  .jobDescription li{
-    color: var(--Text-Black-text-black-300, #606060);
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: -0.28px;
+gap: 32px;
   }
 
   /* Footer */

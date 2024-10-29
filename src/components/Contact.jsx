@@ -92,10 +92,10 @@ function Contact() {
             </div>
             <p>
               4th Floor,No.309, Sy.No. 5/5,VMR
-              <br /> Complex,Varthur Main
-              <br />
-              Road,Thubarahalli,Bengaluru <br /> Urban,Karnataka <br /> PINCODE
-              : 560066
+              <br className="notMobile" /> Complex,Varthur Main
+              <br className="notMobile" />
+              Road,Thubarahalli,Bengaluru <br className="notMobile" />{" "}
+              Urban,Karnataka <br /> PINCODE : 560066
             </p>
           </a>
           <a
@@ -130,13 +130,16 @@ function Contact() {
               <p>Contact Us</p>
             </a>
           </div>
+          <div className="linkCard mobile">
+            <img className="linkCardBackground " src={ContactImg1}></img>
+          </div>
           <p>
             We understand the importance of approaching each work integrally and
             believe in the power of simple.
           </p>
         </div>
-        <div className="linkCard">
-          <img className="linkCardBackground" src={ContactImg1}></img>
+        <div className="linkCard notMobile">
+          <img className="linkCardBackground " src={ContactImg1}></img>
         </div>
       </div>
       <div className="contactCardsContainer">
