@@ -7,11 +7,25 @@ function Analog() {
       <div className="homeDeliveringLeft">
         <div className="homeContainerHeading">
           <p>
-            Analog Design &<br />
+            Analog Design & <br className="notMobile" />
             Layout
           </p>
           <div className="homeContainerHeadingH2">
             <h2>Bring Realty into Digital</h2>
+          </div>
+        </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={AnalogImg}
+            alt="Cilkencave Analog Design & Layout"
+            className="homeDeliveringRightMain"
+          ></img>
+          <div className="homeDeliveringRightContent">
+            <h3>Empowering Innovation</h3>
+            <p>
+              Our advanced solutions help industries grow and adapt to new
+              technologies.
+            </p>
           </div>
         </div>
         <div className="homeDeliveringContent">
@@ -30,8 +44,12 @@ function Analog() {
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
-        <img src={AnalogImg} className="homeDeliveringRightMain"></img>
+      <div className="homeDeliveringRight notMobile">
+        <img
+          src={AnalogImg}
+          alt="Cilkencave Analog Design & Layout"
+          className="homeDeliveringRightMain"
+        ></img>
         <div className="homeDeliveringRightContent">
           <h3>Empowering Innovation</h3>
           <p>

@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className="BannerContainer">
       <div className="Banner">
-        <img src={BannerImg}></img>
+        <img src={BannerImg} alt="Cilkencave Artificial Intelligence Banner"></img>
       </div>
       <div className="BannerText">
         <h1>Artificial Intelligence</h1>

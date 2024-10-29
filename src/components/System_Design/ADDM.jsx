@@ -14,6 +14,15 @@ function ADDM() {
             <h2>Empowering IoT Infrastructure Management</h2>
           </div>
         </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={ADDMImg}
+            className="homeDeliveringRightMain"
+            alt="Cilkencave   ADDM: Simplifying IoT
+            Edge Management"
+            style={{ height: "100%" }}
+          ></img>
+        </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
             With a passion for technology and a commitment to excellence, we
@@ -36,10 +45,12 @@ function ADDM() {
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
+      <div className="homeDeliveringRight notMobile">
         <img
           src={ADDMImg}
           className="homeDeliveringRightMain"
+          alt="Cilkencave   ADDM: Simplifying IoT
+            Edge Management"
           style={{ height: "100%" }}
         ></img>
       </div>

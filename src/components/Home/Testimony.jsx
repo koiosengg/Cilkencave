@@ -103,7 +103,7 @@ function Testimony() {
             ))}
           </div>
         </div>
-        <div className="testimonyDiv">
+        <div className="testimonyDiv mobile">
           {slides.flat().map((testimony, index) => (
             <div key={index} className="testimonySet">
               <p className="testimonySetText">{testimony.text}</p>

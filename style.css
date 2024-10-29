@@ -1493,6 +1493,7 @@
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.4px;
+  text-align: center;
 }
 
 .careersBenefitContainer {
@@ -3151,6 +3152,10 @@
     gap: 16px;
   }
 
+  .testimony .mobile{
+    display: flex;
+  }
+
   .testimonySet {
     width: 80%;
     flex-shrink: 0;
@@ -3289,6 +3294,145 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.28px;
+  }
+
+  /* Product Pages */
+
+  .SemiconductorDivImg {
+    padding: 48px 20px;
+  }
+
+  .homeContainerWithKeyFeatures .homeContainerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  .homeDeliveringContentPara {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .KeyFeatures {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .KeyFeaturesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+  }
+
+  .KeyFeatureSet img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .KeyFeatureSet p {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .homeServiceSetText .heading img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .FeatureListContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+
+  .FeatureListRow {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: var(--White, #fff);
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.16);
+  }
+
+  .FeatureListRowHeading {
+    padding: 10px;
+  }
+
+  .FeatureListRowHeading h3 {
+    color: var(--White, #fff);
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.56px;
+  }
+
+  .FeatureListRowIcon {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    bottom: -24px;
+  }
+
+  .FeatureListRowIcon img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  .FeatureListRowContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+  }
+
+  .FeatureListSet img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .FeatureListSet p {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .KeyFeatures .homeTTMContent img{
+    height: 300px;
   }
 
   /* Career */
@@ -3692,12 +3836,12 @@
     letter-spacing: -0.28px;
   }
 
-  .contactCardsContainer{
+  .contactCardsContainer {
     display: flex;
-padding: 48px 20px;
-flex-direction: column;
-align-items: flex-start;
-gap: 32px;
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
   }
 
   /* Footer */

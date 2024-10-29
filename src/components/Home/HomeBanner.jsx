@@ -22,7 +22,6 @@ function HomeBanner() {
     };
 
     updateBanners();
-
     window.addEventListener("resize", updateBanners);
 
     return () => window.removeEventListener("resize", updateBanners);
@@ -31,8 +30,6 @@ function HomeBanner() {
   const nextBanner = () => {
     if (currentIndex < bannerCount - 1) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
-    } else {
-      setCurrentIndex(0);
     }
   };
 
@@ -43,15 +40,20 @@ function HomeBanner() {
   };
 
   useEffect(() => {
-    const timer = setTimeout(nextBanner, delay);
+    const timer = setTimeout(() => {
+      if (currentIndex < bannerCount - 1) {
+        setCurrentIndex((prevIndex) => prevIndex + 1);
+      }
+    }, delay);
 
     return () => clearTimeout(timer);
-  }, [currentIndex]);
+  }, [currentIndex, bannerCount]);
 
   const handleControlClick = (action) => {
-    clearTimeout();
     action();
+    setCurrentIndex((prevIndex) => prevIndex); 
   };
+
 
   return (
     <div className="homeBannerContainer">
@@ -75,7 +77,6 @@ function HomeBanner() {
           ))}
         </div>
         <div className="homeBannerControlDiv">
-          {/* Left control */}
           <div
             className="homeBannerControlLeft"
             onClick={() => handleControlClick(prevBanner)}
@@ -118,7 +119,6 @@ function HomeBanner() {
             </svg>
           </div>
 
-          {/* Indicator dots */}
           <div className="homeBannerIndicatorDiv">
             {banners.map((_, index) => (
               <div
@@ -130,7 +130,6 @@ function HomeBanner() {
             ))}
           </div>
 
-          {/* Right control */}
           <div
             className="homeBannerControlRight"
             onClick={() => handleControlClick(nextBanner)}

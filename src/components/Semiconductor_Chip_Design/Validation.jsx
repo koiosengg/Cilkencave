@@ -7,10 +7,24 @@ function Validation() {
       <div className="homeDeliveringLeft">
         <div className="homeContainerHeading">
           <p>
-            Validation &<br /> Certification
+            Validation &<br className="notMobile" /> Certification
           </p>
           <div className="homeContainerHeadingH2">
             <h2>Bug Free Designs</h2>
+          </div>
+        </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={ValidationImg}
+            alt="Cilkencave Validation & Certification"
+            className="homeDeliveringRightMain"
+          ></img>
+          <div className="homeDeliveringRightContent">
+            <h3>Empowering Innovation</h3>
+            <p>
+              Our advanced solutions help industries grow and adapt to new
+              technologies.
+            </p>
           </div>
         </div>
         <div className="homeDeliveringContent">
@@ -29,8 +43,12 @@ function Validation() {
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
-        <img src={ValidationImg} className="homeDeliveringRightMain"></img>
+      <div className="homeDeliveringRight notMobile">
+        <img
+          src={ValidationImg}
+          alt="Cilkencave Validation & Certification"
+          className="homeDeliveringRightMain"
+        ></img>
         <div className="homeDeliveringRightContent">
           <h3>Empowering Innovation</h3>
           <p>

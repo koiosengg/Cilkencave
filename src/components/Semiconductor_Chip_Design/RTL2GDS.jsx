@@ -13,6 +13,20 @@ function RTL2GDS() {
               <h2>Best PPA & First Pass</h2>
             </div>
           </div>
+          <div className="homeDeliveringRight mobile">
+            <img
+              src={RTL2GDSImg}
+              alt="Cilkencave RTL2GDS"
+              className="homeDeliveringRightMain"
+            ></img>
+            <div className="homeDeliveringRightContent">
+              <h3>Empowering Innovation</h3>
+              <p>
+                Our advanced solutions help industries grow and adapt to new
+                technologies.
+              </p>
+            </div>
+          </div>
           <div className="homeDeliveringContent">
             <p className="homeDeliveringContentPara">
               At Cilkencave Solutions, our team of technical experts spans the
@@ -31,8 +45,12 @@ function RTL2GDS() {
             </p>
           </div>
         </div>
-        <div className="homeDeliveringRight">
-          <img src={RTL2GDSImg} className="homeDeliveringRightMain"></img>
+        <div className="homeDeliveringRight notMobile">
+          <img
+            src={RTL2GDSImg}
+            alt="Cilkencave RTL2GDS"
+            className="homeDeliveringRightMain"
+          ></img>
           <div className="homeDeliveringRightContent">
             <h3>Empowering Innovation</h3>
             <p>

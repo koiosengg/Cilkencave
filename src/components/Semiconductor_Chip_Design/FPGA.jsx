@@ -12,6 +12,20 @@ function FPGA() {
               <h2>Left Shift Verification</h2>
             </div>
           </div>
+          <div className="homeDeliveringRight mobile">
+            <img
+              src={FPGAImg}
+              alt="Cilkencave Board & FPGA Design"
+              className="homeDeliveringRightMain"
+            ></img>
+            <div className="homeDeliveringRightContent">
+              <h3>Empowering Innovation</h3>
+              <p>
+                Our advanced solutions help industries grow and adapt to new
+                technologies.
+              </p>
+            </div>
+          </div>
           <div className="homeDeliveringContent">
             <p className="homeDeliveringContentPara">
               As part of our Post-Silicon Validation (PSV) services, Cilk n Cave
@@ -28,8 +42,12 @@ function FPGA() {
             </p>
           </div>
         </div>
-        <div className="homeDeliveringRight">
-          <img src={FPGAImg} className="homeDeliveringRightMain"></img>
+        <div className="homeDeliveringRight notMobile">
+          <img
+            src={FPGAImg}
+            alt="Cilkencave Board & FPGA Design"
+            className="homeDeliveringRightMain"
+          ></img>
           <div className="homeDeliveringRightContent">
             <h3>Empowering Innovation</h3>
             <p>

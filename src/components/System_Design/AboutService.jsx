@@ -11,6 +11,20 @@ function AboutService() {
             <h2>From Vision to Certification, Innovating Success</h2>
           </div>
         </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={MainImg}
+            alt="Cilkencave System Design Engineering"
+            className="homeDeliveringRightMain"
+          ></img>
+          <div className="homeDeliveringRightContent">
+            <h3>Empowering Innovation</h3>
+            <p>
+              Our advanced solutions help industries grow and adapt to new
+              technologies.
+            </p>
+          </div>
+        </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
             Cilkencave is a global engineering technology partner with strong
@@ -25,8 +39,12 @@ function AboutService() {
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
-        <img src={MainImg} className="homeDeliveringRightMain"></img>
+      <div className="homeDeliveringRight notMobile">
+        <img
+          src={MainImg}
+          alt="Cilkencave System Design Engineering"
+          className="homeDeliveringRightMain"
+        ></img>
         <div className="homeDeliveringRightContent">
           <h3>Empowering Innovation</h3>
           <p>

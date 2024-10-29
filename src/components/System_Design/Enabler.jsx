@@ -16,6 +16,15 @@ function Enabler() {
               <h2>Experience of time to market</h2>
             </div>
           </div>
+          <div className="homeDeliveringRight mobile">
+            <img
+              src={EnablerImg}
+              className="homeDeliveringRightMain"
+              alt="Cilkencave Enabler In System 
+              Design"
+              style={{ height: "100%" }}
+            ></img>
+          </div>
           <div className="homeDeliveringContent">
             <p className="homeDeliveringContentPara">
               Cilkencave focuses on delivering next-gen IoT solutions to our
@@ -33,10 +42,12 @@ function Enabler() {
             </p>
           </div>
         </div>
-        <div className="homeDeliveringRight">
+        <div className="homeDeliveringRight notMobile">
           <img
             src={EnablerImg}
             className="homeDeliveringRightMain"
+            alt="Cilkencave Enabler In System 
+              Design"
             style={{ height: "100%" }}
           ></img>
         </div>

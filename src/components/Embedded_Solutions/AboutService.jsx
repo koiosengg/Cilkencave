@@ -11,6 +11,20 @@ function AboutService() {
             <h2>Driving Embedded Excellence</h2>
           </div>
         </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={MainImg}
+            alt="Cilkencave Embedded Solutions"
+            className="homeDeliveringRightMain"
+          ></img>
+          <div className="homeDeliveringRightContent">
+            <h3>Empowering Innovation</h3>
+            <p>
+              Our advanced solutions help industries grow and adapt to new
+              technologies.
+            </p>
+          </div>
+        </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
             Cilkencave is your trusted partner for end-to-end support in
@@ -30,8 +44,12 @@ function AboutService() {
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
-        <img src={MainImg} className="homeDeliveringRightMain"></img>
+      <div className="homeDeliveringRight notMobile">
+        <img
+          src={MainImg}
+          alt="Cilkencave Embedded Solutions"
+          className="homeDeliveringRightMain"
+        ></img>
         <div className="homeDeliveringRightContent">
           <h3>Empowering Innovation</h3>
           <p>

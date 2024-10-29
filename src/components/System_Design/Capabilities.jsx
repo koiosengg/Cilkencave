@@ -10,7 +10,11 @@ function Capabilities() {
           <h2>System Design Competencies</h2>
         </div>
       </div>
-      <img src={CapabilitiesImg} className="productCapabilitiesImg"></img>
+      <img
+        src={CapabilitiesImg}
+        alt="Cilkencave Capabilities"
+        className="productCapabilitiesImg"
+      ></img>
     </div>
   );
 }

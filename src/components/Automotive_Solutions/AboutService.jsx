@@ -18,6 +18,20 @@ function AboutService() {
               <h2>Your Trusted Partner for Automotive Electronics Solutions</h2>
             </div>
           </div>
+          <div className="homeDeliveringRight mobile">
+            <img
+              src={MainImg}
+              alt="Cilkencave Automotive Solutions"
+              className="homeDeliveringRightMain"
+            ></img>
+            <div className="homeDeliveringRightContent">
+              <h3>Empowering Innovation</h3>
+              <p>
+                Our advanced solutions help industries grow and adapt to new
+                technologies.
+              </p>
+            </div>
+          </div>
           <div className="homeDeliveringContent">
             <p className="homeDeliveringContentPara">
               SmartSoC is a global engineering technology partner with strong
@@ -34,8 +48,12 @@ function AboutService() {
             </p>
           </div>
         </div>
-        <div className="homeDeliveringRight">
-          <img src={MainImg} className="homeDeliveringRightMain"></img>
+        <div className="homeDeliveringRight notMobile">
+          <img
+            src={MainImg}
+            alt="Cilkencave Automotive Solutions"
+            className="homeDeliveringRightMain"
+          ></img>
           <div className="homeDeliveringRightContent">
             <h3>Empowering Innovation</h3>
             <p>
@@ -50,7 +68,7 @@ function AboutService() {
           <div className="homeTTMContent">
             <img src={EmbeddedSoftware} alt="" />
             <h4>
-              Embedded <br />
+              Embedded <br className="notMobile" />
               Software
             </h4>
           </div>
@@ -58,20 +76,20 @@ function AboutService() {
             <img src={AUTOSAR} alt="" />
             <h4>
               Automatic Platform
-              <br /> Software (AUTO SAR)
+              <br className="notMobile" /> Software (AUTO SAR)
             </h4>
           </div>
           <div className="homeTTMContent">
             <img src={Validation} alt="" />
             <h4>
-              Verification &<br />
+              Verification & <br className="notMobile" />
               Validation
             </h4>
           </div>
           <div className="homeTTMContent">
             <img src={ADAS} alt="" />
             <h4>
-              ADAS & IN - Vehicle <br />
+              ADAS & IN - Vehicle <br className="notMobile" />
               Infotainemnet
             </h4>
           </div>
@@ -79,14 +97,14 @@ function AboutService() {
             <img src={Autonomous} alt="" />
             <h4>
               Autonomous Driving &
-              <br />
+              <br className="notMobile" />
               Connected Cars
             </h4>
           </div>
           <div className="homeTTMContent">
             <img src={Safety} alt="" />
             <h4>
-              Safety & <br />
+              Safety & <br className="notMobile" />
               Security
             </h4>
           </div>

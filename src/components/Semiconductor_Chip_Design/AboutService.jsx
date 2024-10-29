@@ -11,6 +11,20 @@ function AboutService() {
             <h2>Customized ASIC & SOC Solutions with Optimized Cost</h2>
           </div>
         </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={MainImg}
+            alt="Cilkencave Silicon Engineering"
+            className="homeDeliveringRightMain"
+          ></img>
+          <div className="homeDeliveringRightContent">
+            <h3>Empowering Innovation</h3>
+            <p>
+              Our advanced solutions help industries grow and adapt to new
+              technologies.
+            </p>
+          </div>
+        </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
             At Cilk n Cave Semiconductor, we specialize in advanced Silicon
@@ -33,8 +47,12 @@ function AboutService() {
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
-        <img src={MainImg} className="homeDeliveringRightMain"></img>
+      <div className="homeDeliveringRight notMobile">
+        <img
+          src={MainImg}
+          alt="Cilkencave Silicon Engineering"
+          className="homeDeliveringRightMain"
+        ></img>
         <div className="homeDeliveringRightContent">
           <h3>Empowering Innovation</h3>
           <p>

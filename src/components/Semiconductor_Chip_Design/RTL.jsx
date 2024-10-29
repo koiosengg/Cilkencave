@@ -11,6 +11,20 @@ function RTL() {
             <h2>Spec to bug-free HDLs</h2>
           </div>
         </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={RTLImg}
+            alt="Cilkencave RTL Design & Verification "
+            className="homeDeliveringRightMain"
+          ></img>
+          <div className="homeDeliveringRightContent">
+            <h3>Empowering Innovation</h3>
+            <p>
+              Our advanced solutions help industries grow and adapt to new
+              technologies.
+            </p>
+          </div>
+        </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
             CilkenCave’s RTL design engineers bring expertise across various
@@ -35,8 +49,12 @@ function RTL() {
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
-        <img src={RTLImg} className="homeDeliveringRightMain"></img>
+      <div className="homeDeliveringRight notMobile">
+        <img
+          src={RTLImg}
+          alt="Cilkencave RTL Design & Verification "
+          className="homeDeliveringRightMain"
+        ></img>
         <div className="homeDeliveringRightContent">
           <h3>Empowering Innovation</h3>
           <p>

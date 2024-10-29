@@ -11,6 +11,20 @@ function AboutService() {
             <h2>Focused on Delivering Exceptional value to Our Customers</h2>
           </div>
         </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={MainImg}
+            alt="Cilkencave Data Science & ML"
+            className="homeDeliveringRightMain"
+          ></img>
+          <div className="homeDeliveringRightContent">
+            <h3>Empowering Innovation</h3>
+            <p>
+              Our advanced solutions help industries grow and adapt to new
+              technologies.
+            </p>
+          </div>
+        </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
             In today’s dynamic digital environment, effectively processing vast
@@ -26,8 +40,12 @@ function AboutService() {
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
-        <img src={MainImg} className="homeDeliveringRightMain"></img>
+      <div className="homeDeliveringRight notMobile">
+        <img
+          src={MainImg}
+          alt="Cilkencave Data Science & ML"
+          className="homeDeliveringRightMain"
+        ></img>
         <div className="homeDeliveringRightContent">
           <h3>Empowering Innovation</h3>
           <p>

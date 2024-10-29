@@ -19,6 +19,15 @@ function Competencies() {
               <h2>Our Expertise</h2>
             </div>
           </div>
+          <div className="homeDeliveringRight mobile">
+            <img
+              src={CompetenciesImg}
+              alt="Cilkencave Core
+              Competencies"
+              className="homeDeliveringRightMain"
+              style={{height:"100%"}}
+            ></img>
+          </div>
           <div className="homeDeliveringContent">
             <p className="homeDeliveringContentPara">
               Deep domain expertise is the cornerstone of automotive
@@ -33,9 +42,13 @@ function Competencies() {
             </p>
           </div>
         </div>
-        <div className="homeDeliveringRight">
-          <img src={CompetenciesImg} className="homeDeliveringRightMain"></img>
-         
+        <div className="homeDeliveringRight notMobile">
+          <img
+            src={CompetenciesImg}
+            alt="Cilkencave Core
+              Competencies"
+            className="homeDeliveringRightMain"
+          ></img>
         </div>
       </div>
       <div className="KeyFeatures">

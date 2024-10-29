@@ -11,6 +11,14 @@ function DeepLearning() {
             <h2>Our Disruption is the fuel for your Transformation</h2>
           </div>
         </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={DeepLearningImg}
+            alt="Cilkencave Deep Learning"
+            className="homeDeliveringRightMain"
+            style={{ height: "100%" }}
+          ></img>
+        </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
             Explore the forefront of innovation with our advanced capabilities
@@ -19,18 +27,23 @@ function DeepLearning() {
             these transformative fields. Leveraging cutting-edge algorithms and
             state-of-the-art techniques, our expert team is adept at developing
             sophisticated solutions that extract valuable insights from visual
-            and textual data.<br/> We offer a holistic range of Deep Learning
-            services. From initial development to DLOps, monitoring and
-            iterative improvement; our expert team provides tailored solutions
-            to meet your specific needs. Whether it’s fine-tuning algorithms,
-            managing data pipelines or enhancing model performance; our DL
-            capability empowers your organization to maximize the value and
-            efficiency of your Deep learning initiatives!
+            and textual data.
+            <br /> We offer a holistic range of Deep Learning services. From
+            initial development to DLOps, monitoring and iterative improvement;
+            our expert team provides tailored solutions to meet your specific
+            needs. Whether it’s fine-tuning algorithms, managing data pipelines
+            or enhancing model performance; our DL capability empowers your
+            organization to maximize the value and efficiency of your Deep
+            learning initiatives!
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
-        <img src={DeepLearningImg} className="homeDeliveringRightMain"></img>
+      <div className="homeDeliveringRight notMobile">
+        <img
+          src={DeepLearningImg}
+          alt="Cilkencave Deep Learning"
+          className="homeDeliveringRightMain"
+        ></img>
       </div>
     </div>
   );

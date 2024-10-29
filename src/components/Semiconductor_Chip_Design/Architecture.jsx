@@ -11,6 +11,20 @@ function Architecture() {
             <h2>Idea to SPEC</h2>
           </div>
         </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={ArchitectureImg}
+            alt="Cilkencave Architecture"
+            className="homeDeliveringRightMain"
+          ></img>
+          <div className="homeDeliveringRightContent">
+            <h3>Empowering Innovation</h3>
+            <p>
+              Our advanced solutions help industries grow and adapt to new
+              technologies.
+            </p>
+          </div>
+        </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
             As a leading global chip design consultancy, we excel in analyzing
@@ -28,8 +42,12 @@ function Architecture() {
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
-        <img src={ArchitectureImg} className="homeDeliveringRightMain"></img>
+      <div className="homeDeliveringRight notMobile">
+        <img
+          src={ArchitectureImg}
+          alt="Cilkencave Architecture"
+          className="homeDeliveringRightMain"
+        ></img>
         <div className="homeDeliveringRightContent">
           <h3>Empowering Innovation</h3>
           <p>

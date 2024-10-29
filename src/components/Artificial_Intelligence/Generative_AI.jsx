@@ -11,6 +11,20 @@ function Generative_AI() {
             <h2>Our Disruption is the fuel for your Transformation</h2>
           </div>
         </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={Generative_AI_Img}
+            alt="Cilkencave Generative AI"
+            className="homeDeliveringRightMain"
+          ></img>
+          <div className="homeDeliveringRightContent">
+            <h3>Empowering Innovation</h3>
+            <p>
+              Our advanced solutions help industries grow and adapt to new
+              technologies.
+            </p>
+          </div>
+        </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
             The majority of multinational enterprises have dabbled in AI to
@@ -28,8 +42,12 @@ function Generative_AI() {
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
-        <img src={Generative_AI_Img} className="homeDeliveringRightMain"></img>
+      <div className="homeDeliveringRight notMobile">
+        <img
+          src={Generative_AI_Img}
+          alt="Cilkencave Generative AI"
+          className="homeDeliveringRightMain"
+        ></img>
         <div className="homeDeliveringRightContent">
           <h3>Empowering Innovation</h3>
           <p>

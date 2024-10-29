@@ -11,6 +11,14 @@ function DigitalSolutions() {
             <h2>We Craft your Digital Transformation</h2>
           </div>
         </div>
+        <div className="homeDeliveringRight mobile">
+          <img
+            src={DigitalSolutionsImg}
+            alt="Cilkencave Digital Solutions"
+            className="homeDeliveringRightMain"
+            style={{height:"100%"}}
+          ></img>
+        </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
             With a strong focus on Digital Innovation, we specialize in crafting
@@ -26,9 +34,10 @@ function DigitalSolutions() {
           </p>
         </div>
       </div>
-      <div className="homeDeliveringRight">
+      <div className="homeDeliveringRight notMobile">
         <img
           src={DigitalSolutionsImg}
+          alt="Cilkencave Digital Solutions"
           className="homeDeliveringRightMain"
         ></img>
       </div>
