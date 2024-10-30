@@ -27,7 +27,7 @@ function AboutService() {
         </div>
         <div className="homeDeliveringContent">
           <p className="homeDeliveringContentPara">
-            At Cilk n Cave Semiconductor, we specialize in advanced Silicon
+            At Cilkencave Semiconductor, we specialize in advanced Silicon
             Engineering services, providing end-to-end solutions tailored to
             meet diverse client needs. Our experienced engineers and
             cutting-edge infrastructure ensure comprehensive support throughout

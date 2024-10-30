@@ -28,7 +28,7 @@ function FPGA() {
           </div>
           <div className="homeDeliveringContent">
             <p className="homeDeliveringContentPara">
-              As part of our Post-Silicon Validation (PSV) services, Cilk n Cave
+              As part of our Post-Silicon Validation (PSV) services, Cilkencave
               develops comprehensive High-level Test Plans, reviewed by design
               engineers for accuracy. We craft algorithms for test flow design
               and code, applying software validation techniques to streamline
