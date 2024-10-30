@@ -134,8 +134,8 @@ function Privacy() {
               <a href="mailto:hr@cilkencave.com" target="_blank">
                 hr@cilkencave.com{" "}
               </a>
-              <br /> Phone:
-              <a href="tel:9902978741">9902978741</a>
+              <br /> Phone: {" "}
+              <a href="tel:7981120625">7981120625</a>
             </p>
           </div>
         </div>

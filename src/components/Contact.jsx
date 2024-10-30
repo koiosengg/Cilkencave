@@ -56,7 +56,7 @@ function Contact() {
           <button type="submit">Submit</button>
         </form>
         <div className="contactInfo">
-          <a href="tel:9902978741" className="contactInfoSet">
+          <a href="tel:7981120625" className="contactInfoSet">
             <div className="heading">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ function Contact() {
               </svg>
               <h2>Contact Us</h2>
             </div>
-            <p>+91 9902978741</p>
+            <p>+91 7981120625</p>
           </a>
           <a href="/" className="contactInfoSet">
             <div className="heading">

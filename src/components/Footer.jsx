@@ -92,7 +92,7 @@ function Footer() {
           <div className="footerColumn">
             <p>Official Info</p>
             <div className="footerColumnList">
-              <a href="tel:9902978741">
+              <a href="tel:7981120625">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -106,7 +106,7 @@ function Footer() {
                     fillOpacity="0.8"
                   />
                 </svg>
-                +91 9902978741
+                +91 7981120625
               </a>
               <a href="mailto:hr@cilkencave.com" target="_blank">
                 <svg
