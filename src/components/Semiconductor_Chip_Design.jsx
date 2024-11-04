@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "./Semiconductor_Chip_Design/Banner";
 import AboutService from "./Semiconductor_Chip_Design/AboutService";
 import HomeCareerLink from "./Home/HomeCareerLink.jsx";
-import DivImg from "../assets/Semiconductor_Chip_Design/DivImg.png";
+import Expertise from "./Semiconductor_Chip_Design/Expertise.jsx";
 import Architecture from "./Semiconductor_Chip_Design/Architecture.jsx";
 import RTL from "./Semiconductor_Chip_Design/RTL.jsx";
 import RTL2GDS from "./Semiconductor_Chip_Design/RTL2GDS.jsx";
@@ -17,11 +17,7 @@ function Semiconductor_Chip_Design() {
       <Banner />
       <AboutService />
       <HomeCareerLink />
-      <img
-        src={DivImg}
-        alt="Cilkencave emiconductor Chip Design"
-        className="SemiconductorDivImg"
-      ></img>
+      <Expertise/>
       <Architecture />
       <RTL />
       <RTL2GDS />

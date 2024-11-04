@@ -27,7 +27,6 @@
   justify-content: center;
   align-items: flex-start;
   gap: 1.191px;
-  background: var(--Green-green-600, #46a11f);
   text-decoration: none;
   cursor: pointer;
 }
@@ -46,33 +45,32 @@
 }
 
 .navbarLinks {
-  width: 120px;
   text-decoration: none;
   justify-content: center;
   cursor: pointer;
   position: relative;
   display: flex;
-  padding: 8px 16px;
   align-items: center;
   gap: 6px;
   border-radius: 4px;
-  background: linear-gradient(270deg, #204a0e 0%, #41ad13 89.1%, #214c0e 100%);
-  background-size: 400% 400%;
-  transition: background-position 0.3s ease-in-out;
   /* Text Style */
-  color: var(--White, #fff);
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.32px;
+color: var(--Text-Black-text-black-300, #606060);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 .navbarLinks svg {
   transition: all 0.3s;
   z-index: 1;
 }
+
+
+.navbarLinks  svg path{
+  fill:#606060 ;
+} 
 
 .navbarDropdown {
   transition: all 0.3s;
@@ -83,7 +81,7 @@
   align-items: flex-start;
   gap: 24px;
   position: absolute;
-  top: 48px;
+  top: 30px;
   left: 50%;
   transform: translateX(-50%);
   background: #fff;
@@ -93,7 +91,6 @@
 
 .navbarLinks:hover {
   color: #00b6f3;
-  background-position: -100% 50%;
 }
 
 .navbarLinks:hover svg {
@@ -936,7 +933,7 @@
 }
 
 .homeDeliveringContentPara {
-  color: rgba(0, 0, 0, 0.6);
+ color: var(--Text-Black-text-black-300, #606060);
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -1242,7 +1239,6 @@
 .SemiconductorDivImg {
   width: 100%;
   height: 100%;
-  padding: 80px 160px;
   object-fit: cover;
 }
 
@@ -2743,16 +2739,13 @@
     height: 40px;
   }
   .mobileNavbarTabLink p {
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.36px;
-    background: linear-gradient(270deg, #204a0e 0%, #4db122 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  color: var(--Text-Black-Primary, #111);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.36px;
   }
 
   .mobileNavbarTabLink svg {
@@ -3406,10 +3399,6 @@
   }
 
   /* Product Pages */
-
-  .SemiconductorDivImg {
-    padding: 48px 20px;
-  }
 
   .homeContainerWithKeyFeatures .homeContainerDiv {
     display: flex;
