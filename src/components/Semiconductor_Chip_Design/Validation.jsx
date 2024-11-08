@@ -1,5 +1,5 @@
 import React from "react";
-import ValidationImg from "../../assets/Semiconductor_Chip_Design/Validation and Certification-min.jpeg";
+import ValidationImg from "../../assets/Semiconductor_Chip_Design/Validation and Certification-min.png";
 
 function Validation() {
   return (

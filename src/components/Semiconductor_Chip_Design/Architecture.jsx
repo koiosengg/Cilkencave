@@ -1,5 +1,5 @@
 import React from 'react'
-import ArchitectureImg from "../../assets/Semiconductor_Chip_Design/semiconductors architecture semiconductirs chip services cilkencave-min.jpg"
+import ArchitectureImg from "../../assets/Semiconductor_Chip_Design/semiconductors architecture semiconductirs chip services cilkencave-min.png"
 
 function Architecture() {
   return (
